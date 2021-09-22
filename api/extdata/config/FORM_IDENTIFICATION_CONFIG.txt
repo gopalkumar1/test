@@ -1,0 +1,6 @@
+content_type|identification_strings|module_name
+"CIOMS"|"25b. NAME AND ADDRESS OF REPORTER","26. REMARKS"|"generic"
+"JAZZ_ESSDS"|"PMMPATIENT","AEINFO"|"generic"
+"INNOMAR_2"|"Innomar Strategies Adverse Event Case ID", "Xyrem Success Program Patient Identifier Number", "4. Suspect Product Details"|"generic"
+"INNOMAR"|"Innomar Strategies Adverse Event Case ID", "Xyrem Success Program Patient Identifier Number"|"generic"
+"JAZZ_CSV"|"PMMPATIENT","PRESCRIBER"|"generic"

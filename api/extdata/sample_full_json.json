@@ -1,0 +1,1701 @@
+{
+  "senderCaseUid": "16US001071",
+  "senderCaseUid_acc": 1,
+  "senderCaseVersion": "Initial",
+  "senderCaseVersion_acc": 0.95,
+  "summary": {
+    "caseDescription": "This serious report from study report from the United States received on 09-SEP-2016 by an investigator describes\nthe occurrence of Cardiac arrest, and Cerebral haemorrhage in a 25 year-old White male subject taking Rxstudy2 as a participant in\nthe following clinical trial protocol: Rx Study 2: Clinical study single blinded for Device\nOther suspect therapies included: ASPARA POTASSIUM (POTASSIUM ASPARTATE) for Hypertension.\nThe past medical history for the subject included: Hypertension, Abdominal pain. The concurrent medical history for the subject\nincluded: Hyperaemia, Hypertension. No allergy history for the subject was reported. No procedure history for the subject was\nreported.\nNo information was provided for concomitant medications.\nThe subject commenced treatment with Rxstudy2 on 01-JUL-2016. On 01-JUL-2016 the dose was 50 mg, prn. The subject\ncommenced treatment with ASPARA POTASSIUM on 01-JUL-2016. On 01-JUL-2016 the dose was 50 mg, qod.\nThe subject developed the following adverse events: Cardiac arrest which started on 12-JAN-2016 (outcome was death due to\nae/infection) and stopped on 01-FEB-2016, the intensity was assessed as severe. Cerebral haemorrhage which started on\n06-SEP-2016 (outcome was fatal) and stopped on 06-SEP-2016, the intensity was assessed as severe.\nNo information was provided concerning medical treatment medications.\nThe action taken with the primary suspect therapy Rxstudy2 was no change, it was reported that there was not applicable\ndechallenge and not applicable rechallenge. The action taken with the co-suspect therapy ASPARA POTASSIUM was dose\nincreased, it was reported that there was not applicable dechallenge and not applicable rechallenge.\nThe subject died on 06-SEP-2016 due to Cerebral haemorrhage.\nAn autopsy was performed with cause of death indicated as: Cerebral haemorrhage.\nThis report was considered serious for the following events: Cardiac arrest (Life Threatening), Cerebral haemorrhage (Death).\nThe causality assessed by an investigator for the event(s) of Cardiac arrest, Cerebral haemorrhage as Not Related to Rxstudy2.\nThe following laboratory and/or diagnostic tests were performed:\nTest name: Blood test (Range: Low-10 %, High-50 %)\n- Test Date: 01-SEP-2016\n  Test Results: 50 %\n  Notes: \"normal result\"\nTest name: Zinc sulphate turbidity test (Range: Low-20 %, High-200 %)\n- Test Date: 01-SEP-2016\n  Test Results: 60 %\n  Notes: Patient tests \"positive\" for this\nCopyright © \"RxLogix\"",
+    "caseDescription_acc": 0.95,
+    "senderComments": "The action taken with the primary suspect therapy Rxstudy2 was withdrawn .",
+    "senderComments_acc": 1
+  },
+  "relevantTests": "zinc sulphate turbidity test",
+  "relevantTests_acc": 1,
+  "receiptDate": "09/09/2016 00:00:00",
+  "receiptDate_acc": 1,
+  "mostRecentReceiptDate": "09/09/2016 00:00:00",
+  "mostRecentReceiptDate_acc": 1,
+  "reporters": [
+    {
+      "country": "United States",
+      "country_acc": 1,
+      "city": null,
+      "city_acc": null,
+      "givenName": "Smith",
+      "givenName_acc": 1,
+      "firstName": "Smith",
+      "firstName_acc": 1,
+      "middleName": null,
+      "middleName_acc": 1,
+      "lastName": null,
+      "lastName_acc": 1,
+      "postcode": null,
+      "postcode_acc": null,
+      "title": "Mr",
+      "title_acc": 1,
+      "street": null,
+      "street_acc": null,
+      "organization": null,
+      "organization_acc": null,
+      "state": null,
+      "state_acc": null,
+      "department": null,
+      "department_acc": null,
+      "email": null,
+      "email_acc": null,
+      "primary": true
+    }
+  ],
+  "study": {
+    "studyNumber": "Rx Study 2",
+    "studyNumber_acc": 1,
+    "centerNumber": "344",
+    "centerNumber_acc": 1
+  },
+  "patient": {
+    "gender": "Male",
+    "gender_acc": 1,
+    "patientId": "123EKL90",
+    "patientId_acc": 1,
+    "weight": "50.00",
+    "weight_acc": 0.95,
+    "weightUnit": "kg",
+    "weightUnit_acc": 0.95,
+    "name": null,
+    "name_acc": null,
+    "age": {
+      "inputValue": "25 Years",
+      "inputValue_acc": 1,
+      "ageType": "PATIENT_ON_SET_AGE"
+    },
+    "histories": [
+      {
+        "startDate": "05-AUG-2016",
+        "startDate_acc": 1,
+        "endDate": null,
+        "endDate_acc": null,
+        "historyConditionType": "Current Condition",
+        "historyConditionType_acc": 1,
+        "reportedReaction": "Hyperaemia",
+        "reportedReaction_acc": 1,
+        "reactionCoded": "Hyperaemia",
+        "reactionCoded_acc": 1,
+        "historyNote": "The patient 's currently suffering from \" \" Hperaemia \" \"",
+        "historyNote_acc": 1
+      },
+      {
+        "startDate": "01-JAN-2014",
+        "startDate_acc": 1,
+        "endDate": "06-MAY-2014",
+        "endDate_acc": 1,
+        "historyConditionType": "Historical Condition",
+        "historyConditionType_acc": 1,
+        "reportedReaction": "Abdominal pain",
+        "reportedReaction_acc": 1,
+        "reactionCoded": "Abdominal pain",
+        "reactionCoded_acc": 1,
+        "historyNote": "Patient suffered from \" \" Abdominal Pain \" \" in the past",
+        "historyNote_acc": 1
+      },
+      {
+        "startDate": "03-JUL-2015",
+        "startDate_acc": 1,
+        "endDate": "02-MAR-2016",
+        "endDate_acc": 1,
+        "historyConditionType": "Allergy",
+        "historyConditionType_acc": 1,
+        "reportedReaction": "Rash",
+        "reportedReaction_acc": 1,
+        "reactionCoded": "Rash",
+        "reactionCoded_acc": 1,
+        "historyNote": "Patient had an allergy in the form of \" Rash \"",
+        "historyNote_acc": 1
+      },
+      {
+        "startDate": "01-APR-2014",
+        "startDate_acc": 1,
+        "endDate": "06-MAR-2016",
+        "endDate_acc": 1,
+        "historyConditionType": "Procedure",
+        "historyConditionType_acc": 1,
+        "reportedReaction": "Pyrexia",
+        "reportedReaction_acc": 1,
+        "reactionCoded": "Pyrexia",
+        "reactionCoded_acc": 1,
+        "historyNote": "Patient suffered from \" Pyrexia \"",
+        "historyNote_acc": 1
+      }
+    ]
+  },
+  "events": [
+    {
+      "country": "UNITED STATES",
+      "country_acc": 1,
+      "reactionCoded": "Cerebral haemorrhage",
+      "reactionCoded_acc": 1,
+      "reportedReaction": "Cerebral Haemorrhage",
+      "reportedReaction_acc": 1,
+      "medicallyConfirmed": "Yes",
+      "medicallyConfirmed_acc": 0.95,
+      "startDate": "12-NOV-2015",
+      "startDate_acc": 0.95
+    },
+    {
+      "country": "UNITED STATES",
+      "country_acc": 1,
+      "reactionCoded": "Cardiac arrest",
+      "reactionCoded_acc": 1,
+      "reportedReaction": "cardiac arrest",
+      "reportedReaction_acc": 1,
+      "medicallyConfirmed": null,
+      "medicallyConfirmed_acc": null,
+      "startDate": null,
+      "startDate_acc": null
+    },
+    {
+      "country": "UNITED STATES",
+      "country_acc": 1,
+      "reactionCoded": "Nervous system disorder",
+      "reactionCoded_acc": 1,
+      "reportedReaction": "nervous system disorder",
+      "reportedReaction_acc": 1,
+      "medicallyConfirmed": null,
+      "medicallyConfirmed_acc": null,
+      "startDate": null,
+      "startDate_acc": null
+    },
+    {
+      "country": "UNITED STATES",
+      "country_acc": 1,
+      "reactionCoded": "Pyrexia",
+      "reactionCoded_acc": 1,
+      "reportedReaction": "pyrexia",
+      "reportedReaction_acc": 1,
+      "medicallyConfirmed": null,
+      "medicallyConfirmed_acc": null,
+      "startDate": null,
+      "startDate_acc": null
+    },
+    {
+      "country": "UNITED STATES",
+      "country_acc": 1,
+      "reactionCoded": "Paraesthesia",
+      "reactionCoded_acc": 1,
+      "reportedReaction": "paraesthesia",
+      "reportedReaction_acc": 1,
+      "medicallyConfirmed": null,
+      "medicallyConfirmed_acc": null,
+      "startDate": null,
+      "startDate_acc": null
+    },
+    {
+      "country": "UNITED STATES",
+      "country_acc": 1,
+      "reactionCoded": "Abdominal pain",
+      "reactionCoded_acc": 1,
+      "reportedReaction": "abdominal pain",
+      "reportedReaction_acc": 1,
+      "medicallyConfirmed": null,
+      "medicallyConfirmed_acc": null,
+      "startDate": null,
+      "startDate_acc": null
+    },
+    {
+      "country": "UNITED STATES",
+      "country_acc": 1,
+      "reactionCoded": "Diabetes mellitus",
+      "reactionCoded_acc": 1,
+      "reportedReaction": "diabetes",
+      "reportedReaction_acc": 1,
+      "medicallyConfirmed": null,
+      "medicallyConfirmed_acc": null,
+      "startDate": null,
+      "startDate_acc": null
+    },
+    {
+      "country": "UNITED STATES",
+      "country_acc": 1,
+      "reactionCoded": null,
+      "reactionCoded_acc": null,
+      "reportedReaction": "cervical pain",
+      "reportedReaction_acc": 1,
+      "medicallyConfirmed": null,
+      "medicallyConfirmed_acc": null,
+      "startDate": null,
+      "startDate_acc": null
+    },
+    {
+      "country": "UNITED STATES",
+      "country_acc": 1,
+      "reactionCoded": null,
+      "reactionCoded_acc": null,
+      "reportedReaction": "Neck pain",
+      "reportedReaction_acc": 0.74,
+      "medicallyConfirmed": null,
+      "medicallyConfirmed_acc": null,
+      "startDate": null,
+      "startDate_acc": null
+    },
+    {
+      "country": "UNITED STATES",
+      "country_acc": 1,
+      "reactionCoded": "Spinal fracture",
+      "reactionCoded_acc": 1,
+      "reportedReaction": "spinal fractures",
+      "reportedReaction_acc": 1,
+      "medicallyConfirmed": null,
+      "medicallyConfirmed_acc": null,
+      "startDate": null,
+      "startDate_acc": null
+    },
+    {
+      "country": "UNITED STATES",
+      "country_acc": 1,
+      "reactionCoded": "Hyperaemia",
+      "reactionCoded_acc": 1,
+      "reportedReaction": "hyperaemia",
+      "reportedReaction_acc": 1,
+      "medicallyConfirmed": null,
+      "medicallyConfirmed_acc": null,
+      "startDate": null,
+      "startDate_acc": null
+    },
+    {
+      "country": "UNITED STATES",
+      "country_acc": 1,
+      "reactionCoded": "Hypertension",
+      "reactionCoded_acc": 1,
+      "reportedReaction": "hypertension",
+      "reportedReaction_acc": 1,
+      "medicallyConfirmed": null,
+      "medicallyConfirmed_acc": null,
+      "startDate": null,
+      "startDate_acc": null
+    },
+    {
+      "country": "UNITED STATES",
+      "country_acc": 1,
+      "reactionCoded": "Hypotension",
+      "reactionCoded_acc": 1,
+      "reportedReaction": "Hypotension",
+      "reportedReaction_acc": 1,
+      "medicallyConfirmed": null,
+      "medicallyConfirmed_acc": null,
+      "startDate": null,
+      "startDate_acc": null
+    },
+    {
+      "country": "UNITED STATES",
+      "country_acc": 1,
+      "reactionCoded": "Headache",
+      "reactionCoded_acc": 1,
+      "reportedReaction": "headache",
+      "reportedReaction_acc": 1,
+      "medicallyConfirmed": null,
+      "medicallyConfirmed_acc": null,
+      "startDate": null,
+      "startDate_acc": null
+    },
+    {
+      "country": "UNITED STATES",
+      "country_acc": 1,
+      "reactionCoded": "Pain",
+      "reactionCoded_acc": 1,
+      "reportedReaction": "pain",
+      "reportedReaction_acc": 1,
+      "medicallyConfirmed": null,
+      "medicallyConfirmed_acc": null,
+      "startDate": null,
+      "startDate_acc": null
+    }
+  ],
+  "products": [
+    {
+      "seq_num": 1,
+      "seq_num_acc": 0.95,
+      "license_value": "Rxstudy2",
+      "license_value_acc": 1,
+      "ingredients": [
+        {
+          "value": null,
+          "value_acc": null,
+          "strength": null,
+          "strength_acc": null,
+          "unit": null,
+          "unit_acc": null
+        }
+      ],
+      "dosageForm_value": "Tablet",
+      "dosageForm_value_acc": 1,
+      "concentration": [
+        {
+          "value": null,
+          "value_acc": null,
+          "unit": null,
+          "unit_acc": null
+        }
+      ],
+      "indications": [
+        {
+          "reportedReaction": "Rash",
+          "reportedReaction_acc": 1,
+          "reactionCoded": "Rash",
+          "reactionCoded_acc": 1
+        }
+      ],
+      "role_value": "suspect",
+      "doseInformations": [
+        {
+          "dose_inputValue": "50 mg",
+          "dose_inputValue_acc": 1,
+          "frequency_value": "prn",
+          "frequency_value_acc": 1,
+          "duration": "1 month 14 days",
+          "duration_acc": 1,
+          "route_value": "Oral",
+          "route_value_acc": 1,
+          "customProperty_batchNumber_value": "Prd2",
+          "customProperty_batchNumber_value_acc": 1,
+          "customProperty_expiryDate": "01-SEP-2016",
+          "customProperty_expiryDate_acc": 1,
+          "endDate_acc": 1,
+          "endDate": "15-AUG-2016",
+          "startDate": "01-JUL-2016",
+          "startDate_acc": 1,
+          "description": "50 mg , prn",
+          "description_acc": 1
+        }
+      ],
+      "rechallenge": {
+        "value": "N/A",
+        "value_acc": 0.95
+      },
+      "dechallenge": {
+        "value": "N/A",
+        "value_acc": 0.95
+      }
+    },
+    {
+      "seq_num": 2,
+      "seq_num_acc": 0.95,
+      "license_value": "ASPARA POTASSIUM",
+      "license_value_acc": 1,
+      "ingredients": [
+        {
+          "value": "POTASSIUM ASPARTATE",
+          "value_acc": 1,
+          "strength": null,
+          "strength_acc": null,
+          "unit": null,
+          "unit_acc": null
+        }
+      ],
+      "dosageForm_value": null,
+      "dosageForm_value_acc": null,
+      "concentration": [
+        {
+          "value": null,
+          "value_acc": null,
+          "unit": null,
+          "unit_acc": null
+        }
+      ],
+      "indications": [
+        {
+          "reportedReaction": "Hypertension",
+          "reportedReaction_acc": 1,
+          "reactionCoded": "Hypertension",
+          "reactionCoded_acc": 1
+        }
+      ],
+      "role_value": "suspect",
+      "doseInformations": [
+        {
+          "dose_inputValue": "50 mg",
+          "dose_inputValue_acc": 1,
+          "frequency_value": "qod",
+          "frequency_value_acc": 1,
+          "duration": "1 month 14 days",
+          "duration_acc": 1,
+          "route_value": "Oral",
+          "route_value_acc": 1,
+          "customProperty_batchNumber_value": "12345",
+          "customProperty_batchNumber_value_acc": 1,
+          "customProperty_expiryDate": null,
+          "customProperty_expiryDate_acc": null,
+          "endDate_acc": 1,
+          "endDate": "15-AUG-2016",
+          "startDate": "01-JUL-2016",
+          "startDate_acc": 1,
+          "description": "50 mg , qod",
+          "description_acc": 1
+        }
+      ],
+      "rechallenge": {
+        "value": null,
+        "value_acc": null
+      },
+      "dechallenge": {
+        "value": null,
+        "value_acc": null
+      }
+    },
+    {
+      "seq_num": 1,
+      "seq_num_acc": 0.95,
+      "license_value": "Rxstudy2",
+      "license_value_acc": 0.7238,
+      "ingredients": [
+        {
+          "value": null,
+          "value_acc": null,
+          "strength": null,
+          "strength_acc": null,
+          "unit": null,
+          "unit_acc": null
+        }
+      ],
+      "dosageForm_value": "Tablet",
+      "dosageForm_value_acc": 1,
+      "concentration": [
+        {
+          "value": null,
+          "value_acc": null,
+          "unit": null,
+          "unit_acc": null
+        }
+      ],
+      "indications": [
+        {
+          "reportedReaction": "Rash",
+          "reportedReaction_acc": 0.3721,
+          "reactionCoded": "Rash",
+          "reactionCoded_acc": 1
+        },
+        {
+          "reportedReaction": "hyperpyrexia",
+          "reportedReaction_acc": 0.9988,
+          "reactionCoded": "Hyperpyrexia",
+          "reactionCoded_acc": 0.9998
+        }
+      ],
+      "role_value": "suspect",
+      "doseInformations": [
+        {
+          "dose_inputValue": "50 mg",
+          "dose_inputValue_acc": 0.9991,
+          "frequency_value": "prn",
+          "frequency_value_acc": 0.9991,
+          "duration": "1 month 14 days",
+          "duration_acc": 0.9985,
+          "route_value": "Oral",
+          "route_value_acc": 0.7529,
+          "customProperty_batchNumber_value": "Prd2",
+          "customProperty_batchNumber_value_acc": 1,
+          "customProperty_expiryDate": "01-SEP-2016",
+          "customProperty_expiryDate_acc": 0.9097,
+          "endDate_acc": 0.946,
+          "endDate": "15-AUG-2016",
+          "startDate": "01-JUL-2016",
+          "startDate_acc": 0.9114,
+          "description": "50 mg , prn",
+          "description_acc": 0.9991
+        }
+      ],
+      "rechallenge": {
+        "value": null,
+        "value_acc": null
+      },
+      "dechallenge": {
+        "value": null,
+        "value_acc": null
+      }
+    },
+    {
+      "seq_num": 1,
+      "seq_num_acc": 0.95,
+      "license_value": "Rxstudy2",
+      "license_value_acc": 1,
+      "ingredients": [
+        {
+          "value": null,
+          "value_acc": null,
+          "strength": null,
+          "strength_acc": null,
+          "unit": null,
+          "unit_acc": null
+        }
+      ],
+      "dosageForm_value": "Tablet",
+      "dosageForm_value_acc": 1,
+      "concentration": [
+        {
+          "value": null,
+          "value_acc": null,
+          "unit": null,
+          "unit_acc": null
+        }
+      ],
+      "indications": [
+        {
+          "reportedReaction": "Rash",
+          "reportedReaction_acc": 1,
+          "reactionCoded": "Rash",
+          "reactionCoded_acc": 0.949
+        },
+        {
+          "reportedReaction": "hyperpyrexia",
+          "reportedReaction_acc": 0.9999,
+          "reactionCoded": "Hyperpyrexia",
+          "reactionCoded_acc": 1
+        }
+      ],
+      "role_value": "suspect",
+      "doseInformations": [
+        {
+          "dose_inputValue": null,
+          "dose_inputValue_acc": null,
+          "frequency_value": null,
+          "frequency_value_acc": null,
+          "duration": null,
+          "duration_acc": null,
+          "route_value": "Oral",
+          "route_value_acc": 0.997,
+          "customProperty_batchNumber_value": "Prd2",
+          "customProperty_batchNumber_value_acc": 1,
+          "customProperty_expiryDate": null,
+          "customProperty_expiryDate_acc": null,
+          "endDate_acc": null,
+          "endDate": null,
+          "startDate": null,
+          "startDate_acc": null,
+          "description": null,
+          "description_acc": null
+        }
+      ],
+      "rechallenge": {
+        "value": null,
+        "value_acc": null
+      },
+      "dechallenge": {
+        "value": null,
+        "value_acc": null
+      }
+    },
+    {
+      "seq_num": 2,
+      "seq_num_acc": 0.95,
+      "license_value": "ASPARA POTASSIUM",
+      "license_value_acc": 0.9069,
+      "ingredients": [
+        {
+          "value": null,
+          "value_acc": null,
+          "strength": null,
+          "strength_acc": null,
+          "unit": null,
+          "unit_acc": null
+        }
+      ],
+      "dosageForm_value": null,
+      "dosageForm_value_acc": null,
+      "concentration": [
+        {
+          "value": null,
+          "value_acc": null,
+          "unit": null,
+          "unit_acc": null
+        }
+      ],
+      "indications": [
+        {
+          "reportedReaction": "Hypertension",
+          "reportedReaction_acc": 1,
+          "reactionCoded": "Hypertension",
+          "reactionCoded_acc": 0.9758
+        },
+        {
+          "reportedReaction": "Hyperaemia",
+          "reportedReaction_acc": 1,
+          "reactionCoded": "Hyperaemia",
+          "reactionCoded_acc": 0.9996
+        }
+      ],
+      "role_value": "suspect",
+      "doseInformations": [
+        {
+          "dose_inputValue": "50 mg",
+          "dose_inputValue_acc": 1,
+          "frequency_value": "qod",
+          "frequency_value_acc": 1,
+          "duration": "1 month 14 days",
+          "duration_acc": 1,
+          "route_value": "Oral",
+          "route_value_acc": 0.9998,
+          "customProperty_batchNumber_value": "12345",
+          "customProperty_batchNumber_value_acc": 1,
+          "customProperty_expiryDate": "01-SEP-2016",
+          "customProperty_expiryDate_acc": 0.8853,
+          "endDate_acc": 1,
+          "endDate": "15-AUG-2016",
+          "startDate": "01-JUL-2016",
+          "startDate_acc": 1,
+          "description": "50 mg , qod",
+          "description_acc": 1
+        }
+      ],
+      "rechallenge": {
+        "value": null,
+        "value_acc": null
+      },
+      "dechallenge": {
+        "value": null,
+        "value_acc": null
+      }
+    },
+    {
+      "seq_num": 3,
+      "seq_num_acc": 0.95,
+      "license_value": "Test license Drug6",
+      "license_value_acc": 1,
+      "ingredients": [
+        {
+          "value": "montelukast sodium",
+          "value_acc": 1,
+          "strength": null,
+          "strength_acc": null,
+          "unit": null,
+          "unit_acc": null
+        }
+      ],
+      "dosageForm_value": "Capsule",
+      "dosageForm_value_acc": 0.9992,
+      "concentration": [
+        {
+          "value": "78",
+          "value_acc": 1,
+          "unit": "gram",
+          "unit_acc": 1
+        }
+      ],
+      "indications": [
+        {
+          "reportedReaction": "Rash",
+          "reportedReaction_acc": 0.9999,
+          "reactionCoded": "Rash",
+          "reactionCoded_acc": 1
+        },
+        {
+          "reportedReaction": "spinal instability",
+          "reportedReaction_acc": 0.9997,
+          "reactionCoded": null,
+          "reactionCoded_acc": null
+        }
+      ],
+      "role_value": "suspect",
+      "doseInformations": [
+        {
+          "dose_inputValue": "50 drop",
+          "dose_inputValue_acc": 0.9677,
+          "frequency_value": "qid",
+          "frequency_value_acc": 0.9677,
+          "duration": "1 month 14 days",
+          "duration_acc": 0.9993,
+          "route_value": "Conjunctival",
+          "route_value_acc": 0.9998,
+          "customProperty_batchNumber_value": "12345",
+          "customProperty_batchNumber_value_acc": 1,
+          "customProperty_expiryDate": "01-SEP-2016",
+          "customProperty_expiryDate_acc": 1,
+          "endDate_acc": 1,
+          "endDate": "15-AUG-2016",
+          "startDate": "01-JUL-2016",
+          "startDate_acc": 0.9999,
+          "description": "50 drop , qid",
+          "description_acc": 0.9677
+        }
+      ],
+      "rechallenge": {
+        "value": null,
+        "value_acc": null
+      },
+      "dechallenge": {
+        "value": null,
+        "value_acc": null
+      }
+    },
+    {
+      "seq_num": 1,
+      "seq_num_acc": 0.95,
+      "license_value": "Test license Drug7",
+      "license_value_acc": 1,
+      "ingredients": [
+        {
+          "value": "MONTELUKAST SODIUM",
+          "value_acc": 1,
+          "strength": null,
+          "strength_acc": null,
+          "unit": null,
+          "unit_acc": null
+        }
+      ],
+      "dosageForm_value": "Tablet",
+      "dosageForm_value_acc": 1,
+      "concentration": [
+        {
+          "value": "89",
+          "value_acc": 1,
+          "unit": "curie",
+          "unit_acc": 1
+        }
+      ],
+      "indications": [
+        {
+          "reportedReaction": null,
+          "reportedReaction_acc": null,
+          "reactionCoded": null,
+          "reactionCoded_acc": null
+        }
+      ],
+      "role_value": "concomitant",
+      "doseInformations": [
+        {
+          "dose_inputValue": null,
+          "dose_inputValue_acc": null,
+          "frequency_value": null,
+          "frequency_value_acc": null,
+          "duration": null,
+          "duration_acc": null,
+          "route_value": null,
+          "route_value_acc": null,
+          "customProperty_batchNumber_value": null,
+          "customProperty_batchNumber_value_acc": null,
+          "customProperty_expiryDate": null,
+          "customProperty_expiryDate_acc": null,
+          "endDate": null,
+          "endDate_acc": null,
+          "startDate": null,
+          "startDate_acc": null,
+          "description": null,
+          "description_acc": null
+        }
+      ],
+      "rechallenge": {
+        "value": null,
+        "value_acc": null
+      },
+      "dechallenge": {
+        "value": null,
+        "value_acc": null
+      }
+    },
+    {
+      "seq_num": 2,
+      "seq_num_acc": 0.95,
+      "license_value": "Test license Drug8",
+      "license_value_acc": 1,
+      "ingredients": [
+        {
+          "value": "MONTELUKAST SODIUM",
+          "value_acc": 1,
+          "strength": null,
+          "strength_acc": null,
+          "unit": null,
+          "unit_acc": null
+        }
+      ],
+      "dosageForm_value": "Unknown",
+      "dosageForm_value_acc": 1,
+      "concentration": [
+        {
+          "value": "89",
+          "value_acc": 1,
+          "unit": "dosage form",
+          "unit_acc": 1
+        }
+      ],
+      "indications": [
+        {
+          "reportedReaction": null,
+          "reportedReaction_acc": null,
+          "reactionCoded": null,
+          "reactionCoded_acc": null
+        }
+      ],
+      "role_value": "concomitant",
+      "doseInformations": [
+        {
+          "dose_inputValue": null,
+          "dose_inputValue_acc": null,
+          "frequency_value": null,
+          "frequency_value_acc": null,
+          "duration": null,
+          "duration_acc": null,
+          "route_value": null,
+          "route_value_acc": null,
+          "customProperty_batchNumber_value": null,
+          "customProperty_batchNumber_value_acc": null,
+          "customProperty_expiryDate": null,
+          "customProperty_expiryDate_acc": null,
+          "endDate": null,
+          "endDate_acc": null,
+          "startDate": null,
+          "startDate_acc": null,
+          "description": null,
+          "description_acc": null
+        }
+      ],
+      "rechallenge": {
+        "value": null,
+        "value_acc": null
+      },
+      "dechallenge": {
+        "value": null,
+        "value_acc": null
+      }
+    },
+    {
+      "seq_num": 3,
+      "seq_num_acc": 0.95,
+      "license_value": "ASPIRIN ACTAVIS",
+      "license_value_acc": 1,
+      "ingredients": [
+        {
+          "value": "ACETYLSALICYLIC ACID",
+          "value_acc": 1,
+          "strength": null,
+          "strength_acc": null,
+          "unit": null,
+          "unit_acc": null
+        }
+      ],
+      "dosageForm_value": null,
+      "dosageForm_value_acc": null,
+      "concentration": [
+        {
+          "value": "89",
+          "value_acc": 1,
+          "unit": "millicurie",
+          "unit_acc": 1
+        }
+      ],
+      "indications": [
+        {
+          "reportedReaction": null,
+          "reportedReaction_acc": null,
+          "reactionCoded": null,
+          "reactionCoded_acc": null
+        }
+      ],
+      "role_value": "concomitant",
+      "doseInformations": [
+        {
+          "dose_inputValue": null,
+          "dose_inputValue_acc": null,
+          "frequency_value": null,
+          "frequency_value_acc": null,
+          "duration": null,
+          "duration_acc": null,
+          "route_value": null,
+          "route_value_acc": null,
+          "customProperty_batchNumber_value": null,
+          "customProperty_batchNumber_value_acc": null,
+          "customProperty_expiryDate": null,
+          "customProperty_expiryDate_acc": null,
+          "endDate": null,
+          "endDate_acc": null,
+          "startDate": null,
+          "startDate_acc": null,
+          "description": null,
+          "description_acc": null
+        }
+      ],
+      "rechallenge": {
+        "value": null,
+        "value_acc": null
+      },
+      "dechallenge": {
+        "value": null,
+        "value_acc": null
+      }
+    },
+    {
+      "seq_num": 4,
+      "seq_num_acc": 0.95,
+      "license_value": "CIPLAR",
+      "license_value_acc": 1,
+      "ingredients": [
+        {
+          "value": "PROPRANOLOL HYDROCHLORIDE",
+          "value_acc": 1,
+          "strength": null,
+          "strength_acc": null,
+          "unit": null,
+          "unit_acc": null
+        }
+      ],
+      "dosageForm_value": null,
+      "dosageForm_value_acc": null,
+      "concentration": [
+        {
+          "value": "89",
+          "value_acc": 1,
+          "unit": "gigabecquerel",
+          "unit_acc": 1
+        }
+      ],
+      "indications": [
+        {
+          "reportedReaction": null,
+          "reportedReaction_acc": null,
+          "reactionCoded": null,
+          "reactionCoded_acc": null
+        }
+      ],
+      "role_value": "concomitant",
+      "doseInformations": [
+        {
+          "dose_inputValue": null,
+          "dose_inputValue_acc": null,
+          "frequency_value": null,
+          "frequency_value_acc": null,
+          "duration": null,
+          "duration_acc": null,
+          "route_value": null,
+          "route_value_acc": null,
+          "customProperty_batchNumber_value": null,
+          "customProperty_batchNumber_value_acc": null,
+          "customProperty_expiryDate": null,
+          "customProperty_expiryDate_acc": null,
+          "endDate": null,
+          "endDate_acc": null,
+          "startDate": null,
+          "startDate_acc": null,
+          "description": null,
+          "description_acc": null
+        }
+      ],
+      "rechallenge": {
+        "value": null,
+        "value_acc": null
+      },
+      "dechallenge": {
+        "value": null,
+        "value_acc": null
+      }
+    },
+    {
+      "seq_num": 5,
+      "seq_num_acc": 0.95,
+      "license_value": null,
+      "license_value_acc": null,
+      "ingredients": [
+        {
+          "value": "P - COUMARIC ACID",
+          "value_acc": 1,
+          "strength": 100,
+          "strength_acc": 1,
+          "unit": "g",
+          "unit_acc": 1
+        }
+      ],
+      "dosageForm_value": "Injection",
+      "dosageForm_value_acc": 1,
+      "concentration": [
+        {
+          "value": null,
+          "value_acc": null,
+          "unit": null,
+          "unit_acc": null
+        }
+      ],
+      "indications": [
+        {
+          "reportedReaction": null,
+          "reportedReaction_acc": null,
+          "reactionCoded": null,
+          "reactionCoded_acc": null
+        }
+      ],
+      "role_value": "concomitant",
+      "doseInformations": [
+        {
+          "dose_inputValue": null,
+          "dose_inputValue_acc": null,
+          "frequency_value": null,
+          "frequency_value_acc": null,
+          "duration": null,
+          "duration_acc": null,
+          "route_value": null,
+          "route_value_acc": null,
+          "customProperty_batchNumber_value": null,
+          "customProperty_batchNumber_value_acc": null,
+          "customProperty_expiryDate": null,
+          "customProperty_expiryDate_acc": null,
+          "endDate": null,
+          "endDate_acc": null,
+          "startDate": null,
+          "startDate_acc": null,
+          "description": null,
+          "description_acc": null
+        }
+      ],
+      "rechallenge": {
+        "value": null,
+        "value_acc": null
+      },
+      "dechallenge": {
+        "value": null,
+        "value_acc": null
+      }
+    },
+    {
+      "seq_num": 1,
+      "seq_num_acc": 0.95,
+      "license_value": "Test license Drug7",
+      "license_value_acc": 1,
+      "ingredients": [
+        {
+          "value": "MONTELUKAST SODIUM",
+          "value_acc": 1,
+          "strength": null,
+          "strength_acc": null,
+          "unit": null,
+          "unit_acc": null
+        }
+      ],
+      "dosageForm_value": "Tablet",
+      "dosageForm_value_acc": 1,
+      "concentration": [
+        {
+          "value": "89",
+          "value_acc": 1,
+          "unit": "curie",
+          "unit_acc": 1
+        }
+      ],
+      "indications": [
+        {
+          "reportedReaction": null,
+          "reportedReaction_acc": null,
+          "reactionCoded": null,
+          "reactionCoded_acc": null
+        }
+      ],
+      "role_value": "concomitant",
+      "doseInformations": [
+        {
+          "dose_inputValue": null,
+          "dose_inputValue_acc": null,
+          "frequency_value": null,
+          "frequency_value_acc": null,
+          "duration": null,
+          "duration_acc": null,
+          "route_value": null,
+          "route_value_acc": null,
+          "customProperty_batchNumber_value": null,
+          "customProperty_batchNumber_value_acc": null,
+          "customProperty_expiryDate": null,
+          "customProperty_expiryDate_acc": null,
+          "endDate": "15-AUG-2016",
+          "endDate_acc": 1,
+          "startDate": "01-JUL-2016",
+          "startDate_acc": 1,
+          "description": null,
+          "description_acc": null
+        }
+      ],
+      "rechallenge": {
+        "value": null,
+        "value_acc": null
+      },
+      "dechallenge": {
+        "value": null,
+        "value_acc": null
+      }
+    },
+    {
+      "seq_num": 2,
+      "seq_num_acc": 0.95,
+      "license_value": "Test license Drug8",
+      "license_value_acc": 1,
+      "ingredients": [
+        {
+          "value": "MONTELUKAST SODIUM",
+          "value_acc": 1,
+          "strength": null,
+          "strength_acc": null,
+          "unit": null,
+          "unit_acc": null
+        }
+      ],
+      "dosageForm_value": "Unknown",
+      "dosageForm_value_acc": 1,
+      "concentration": [
+        {
+          "value": "89",
+          "value_acc": 1,
+          "unit": "dosage form",
+          "unit_acc": 1
+        }
+      ],
+      "indications": [
+        {
+          "reportedReaction": null,
+          "reportedReaction_acc": null,
+          "reactionCoded": null,
+          "reactionCoded_acc": null
+        }
+      ],
+      "role_value": "concomitant",
+      "doseInformations": [
+        {
+          "dose_inputValue": null,
+          "dose_inputValue_acc": null,
+          "frequency_value": null,
+          "frequency_value_acc": null,
+          "duration": null,
+          "duration_acc": null,
+          "route_value": null,
+          "route_value_acc": null,
+          "customProperty_batchNumber_value": null,
+          "customProperty_batchNumber_value_acc": null,
+          "customProperty_expiryDate": null,
+          "customProperty_expiryDate_acc": null,
+          "endDate": "15-AUG-2016",
+          "endDate_acc": 1,
+          "startDate": "01-JUL-2016",
+          "startDate_acc": 1,
+          "description": null,
+          "description_acc": null
+        }
+      ],
+      "rechallenge": {
+        "value": null,
+        "value_acc": null
+      },
+      "dechallenge": {
+        "value": null,
+        "value_acc": null
+      }
+    },
+    {
+      "seq_num": 3,
+      "seq_num_acc": 0.95,
+      "license_value": "ASPIRIN ACTAVIS",
+      "license_value_acc": 1,
+      "ingredients": [
+        {
+          "value": "ACETYLSALICYLIC ACID",
+          "value_acc": 1,
+          "strength": null,
+          "strength_acc": null,
+          "unit": null,
+          "unit_acc": null
+        }
+      ],
+      "dosageForm_value": null,
+      "dosageForm_value_acc": null,
+      "concentration": [
+        {
+          "value": "89",
+          "value_acc": 1,
+          "unit": "millicurie",
+          "unit_acc": 1
+        }
+      ],
+      "indications": [
+        {
+          "reportedReaction": null,
+          "reportedReaction_acc": null,
+          "reactionCoded": null,
+          "reactionCoded_acc": null
+        }
+      ],
+      "role_value": "concomitant",
+      "doseInformations": [
+        {
+          "dose_inputValue": null,
+          "dose_inputValue_acc": null,
+          "frequency_value": null,
+          "frequency_value_acc": null,
+          "duration": null,
+          "duration_acc": null,
+          "route_value": null,
+          "route_value_acc": null,
+          "customProperty_batchNumber_value": null,
+          "customProperty_batchNumber_value_acc": null,
+          "customProperty_expiryDate": null,
+          "customProperty_expiryDate_acc": null,
+          "endDate": "15-AUG-2016",
+          "endDate_acc": 1,
+          "startDate": "01-JUL-2016",
+          "startDate_acc": 1,
+          "description": null,
+          "description_acc": null
+        }
+      ],
+      "rechallenge": {
+        "value": null,
+        "value_acc": null
+      },
+      "dechallenge": {
+        "value": null,
+        "value_acc": null
+      }
+    },
+    {
+      "seq_num": 4,
+      "seq_num_acc": 0.95,
+      "license_value": "CIPLAR",
+      "license_value_acc": 1,
+      "ingredients": [
+        {
+          "value": "PROPRANOLOL HYDROCHLORIDE",
+          "value_acc": 1,
+          "strength": null,
+          "strength_acc": null,
+          "unit": null,
+          "unit_acc": null
+        }
+      ],
+      "dosageForm_value": null,
+      "dosageForm_value_acc": null,
+      "concentration": [
+        {
+          "value": "89",
+          "value_acc": 1,
+          "unit": "gigabecquerel",
+          "unit_acc": 1
+        }
+      ],
+      "indications": [
+        {
+          "reportedReaction": null,
+          "reportedReaction_acc": null,
+          "reactionCoded": null,
+          "reactionCoded_acc": null
+        }
+      ],
+      "role_value": "concomitant",
+      "doseInformations": [
+        {
+          "dose_inputValue": null,
+          "dose_inputValue_acc": null,
+          "frequency_value": null,
+          "frequency_value_acc": null,
+          "duration": null,
+          "duration_acc": null,
+          "route_value": null,
+          "route_value_acc": null,
+          "customProperty_batchNumber_value": null,
+          "customProperty_batchNumber_value_acc": null,
+          "customProperty_expiryDate": null,
+          "customProperty_expiryDate_acc": null,
+          "endDate": "15-AUG-2016",
+          "endDate_acc": 1,
+          "startDate": "01-JUL-2016",
+          "startDate_acc": 1,
+          "description": null,
+          "description_acc": null
+        }
+      ],
+      "rechallenge": {
+        "value": null,
+        "value_acc": null
+      },
+      "dechallenge": {
+        "value": null,
+        "value_acc": null
+      }
+    },
+    {
+      "seq_num": 5,
+      "seq_num_acc": 0.95,
+      "license_value": null,
+      "license_value_acc": null,
+      "ingredients": [
+        {
+          "value": "P - COUMARIC ACID",
+          "value_acc": 1,
+          "strength": 100,
+          "strength_acc": 1,
+          "unit": "g",
+          "unit_acc": 1
+        }
+      ],
+      "dosageForm_value": "Injection",
+      "dosageForm_value_acc": 1,
+      "concentration": [
+        {
+          "value": "100",
+          "value_acc": 1,
+          "unit": "millimole",
+          "unit_acc": 1
+        }
+      ],
+      "indications": [
+        {
+          "reportedReaction": null,
+          "reportedReaction_acc": null,
+          "reactionCoded": null,
+          "reactionCoded_acc": null
+        }
+      ],
+      "role_value": "concomitant",
+      "doseInformations": [
+        {
+          "dose_inputValue": null,
+          "dose_inputValue_acc": null,
+          "frequency_value": null,
+          "frequency_value_acc": null,
+          "duration": null,
+          "duration_acc": null,
+          "route_value": null,
+          "route_value_acc": null,
+          "customProperty_batchNumber_value": null,
+          "customProperty_batchNumber_value_acc": null,
+          "customProperty_expiryDate": null,
+          "customProperty_expiryDate_acc": null,
+          "endDate": "15-AUG-2016",
+          "endDate_acc": 1,
+          "startDate": "01-JUL-2016",
+          "startDate_acc": 1,
+          "description": null,
+          "description_acc": null
+        }
+      ],
+      "rechallenge": {
+        "value": null,
+        "value_acc": null
+      },
+      "dechallenge": {
+        "value": null,
+        "value_acc": null
+      }
+    }
+  ],
+  "tests": [
+    {
+      "startDate": "01-SEP-2016",
+      "startDate_acc": 1,
+      "testName": "Aspiration bone marrow",
+      "testName_acc": 1,
+      "testResult": "9",
+      "testResult_acc": 1,
+      "testResultUnit": "Bq",
+      "testResultUnit_acc": 1,
+      "testAssessment": "normal",
+      "testAssessment_acc": 1,
+      "testNotes": "Not Detected",
+      "testNotes_acc": 1
+    },
+    {
+      "startDate": "01-SEP-2016",
+      "startDate_acc": 1,
+      "testName": "Biopsy bone marrow",
+      "testName_acc": 1,
+      "testResult": "2",
+      "testResult_acc": 1,
+      "testResultUnit": "Gtt",
+      "testResultUnit_acc": 1,
+      "testAssessment": "depressed",
+      "testAssessment_acc": 1,
+      "testNotes": "Very less",
+      "testNotes_acc": 1
+    },
+    {
+      "startDate": "15-SEP-2016",
+      "startDate_acc": 1,
+      "testName": "Biopsy bone marrow",
+      "testName_acc": 1,
+      "testResult": "6",
+      "testResult_acc": 1,
+      "testResultUnit": "Gtt",
+      "testResultUnit_acc": 1,
+      "testAssessment": "normal",
+      "testAssessment_acc": 1,
+      "testNotes": "Patient is \" Normal \" now",
+      "testNotes_acc": 1
+    },
+    {
+      "startDate": null,
+      "startDate_acc": null,
+      "testName": "Blood lactate dehydrogenase",
+      "testName_acc": 1,
+      "testResult": "45",
+      "testResult_acc": 1,
+      "testResultUnit": "IU",
+      "testResultUnit_acc": 1,
+      "testAssessment": "borderline",
+      "testAssessment_acc": 1,
+      "testNotes": "Patient is on \" Borderline \"",
+      "testNotes_acc": 1
+    },
+    {
+      "startDate": "15-SEP-2016",
+      "startDate_acc": 1,
+      "testName": "Blood lactate dehydrogenase",
+      "testName_acc": 1,
+      "testResult": "45",
+      "testResult_acc": 1,
+      "testResultUnit": "IU",
+      "testResultUnit_acc": 1,
+      "testAssessment": "borderline",
+      "testAssessment_acc": 1,
+      "testNotes": "Patient is still on \" Borderline \"",
+      "testNotes_acc": 1
+    },
+    {
+      "startDate": "01-SEP-2016",
+      "startDate_acc": 1,
+      "testName": "Blood test",
+      "testName_acc": 1,
+      "testResult": "50",
+      "testResult_acc": 1,
+      "testResultUnit": "%",
+      "testResultUnit_acc": 1,
+      "testAssessment": "normal",
+      "testAssessment_acc": 1,
+      "testNotes": "\" normal result \"",
+      "testNotes_acc": 1
+    },
+    {
+      "startDate": "15-SEP-2016",
+      "startDate_acc": 0.98,
+      "testName": "Blood test",
+      "testName_acc": 1,
+      "testResult": "90",
+      "testResult_acc": 1,
+      "testResultUnit": "%",
+      "testResultUnit_acc": 1,
+      "testAssessment": "elevated",
+      "testAssessment_acc": 1,
+      "testNotes": "Blood Pressure has increased",
+      "testNotes_acc": 1
+    },
+    {
+      "startDate": "01-SEP-2016",
+      "startDate_acc": 1,
+      "testName": "Body temperature",
+      "testName_acc": 1,
+      "testResult": "102",
+      "testResult_acc": 1,
+      "testResultUnit": "DF",
+      "testResultUnit_acc": 1,
+      "testAssessment": "Positive",
+      "testAssessment_acc": 1,
+      "testNotes": "Patient has \" Pyrexia \"",
+      "testNotes_acc": 1
+    },
+    {
+      "startDate": "01-SEP-2016",
+      "startDate_acc": 1,
+      "testName": "Computerised tomogram",
+      "testName_acc": 1,
+      "testResult": "100",
+      "testResult_acc": 1,
+      "testResultUnit": "%",
+      "testResultUnit_acc": 1,
+      "testAssessment": "normal",
+      "testAssessment_acc": 0.92,
+      "testNotes": "\" Normal \"",
+      "testNotes_acc": 1
+    },
+    {
+      "startDate": "01-SEP-2016",
+      "startDate_acc": 1,
+      "testName": "Culture throat",
+      "testName_acc": 1,
+      "testResult": null,
+      "testResult_acc": null,
+      "testResultUnit": null,
+      "testResultUnit_acc": null,
+      "testAssessment": "elevated",
+      "testAssessment_acc": 1,
+      "testNotes": "Result is \" elevated \"",
+      "testNotes_acc": 1
+    },
+    {
+      "startDate": "15-SEP-2016",
+      "startDate_acc": 1,
+      "testName": "Culture throat",
+      "testName_acc": 1,
+      "testResult": null,
+      "testResult_acc": null,
+      "testResultUnit": null,
+      "testResultUnit_acc": null,
+      "testAssessment": null,
+      "testAssessment_acc": null,
+      "testNotes": "In control now",
+      "testNotes_acc": 1
+    },
+    {
+      "startDate": "01-SEP-2016",
+      "startDate_acc": 1,
+      "testName": "Flow cytometry",
+      "testName_acc": 1,
+      "testResult": "0.8",
+      "testResult_acc": 1,
+      "testResultUnit": "l",
+      "testResultUnit_acc": 1,
+      "testAssessment": "Negative",
+      "testAssessment_acc": 1,
+      "testNotes": "\" Negative \" Test",
+      "testNotes_acc": 1
+    },
+    {
+      "startDate": "01-SEP-2016",
+      "startDate_acc": 1,
+      "testName": "Haematocrit",
+      "testName_acc": 1,
+      "testResult": "8",
+      "testResult_acc": 1,
+      "testResultUnit": "ad",
+      "testResultUnit_acc": 1,
+      "testAssessment": "Negative",
+      "testAssessment_acc": 1,
+      "testNotes": "Patient tests \" negative \" for this",
+      "testNotes_acc": 1
+    },
+    {
+      "startDate": "01-SEP-2016",
+      "startDate_acc": 1,
+      "testName": "Haemoglobin",
+      "testName_acc": 1,
+      "testResult": "15",
+      "testResult_acc": 1,
+      "testResultUnit": "mg / m2",
+      "testResultUnit_acc": 1,
+      "testAssessment": "normal",
+      "testAssessment_acc": 1,
+      "testNotes": "Result is \" normal \"",
+      "testNotes_acc": 1
+    },
+    {
+      "startDate": null,
+      "startDate_acc": null,
+      "testName": "Neutrophil count",
+      "testName_acc": 1,
+      "testResult": "250",
+      "testResult_acc": 1,
+      "testResultUnit": "Ci",
+      "testResultUnit_acc": 1,
+      "testAssessment": "Inconclusive",
+      "testAssessment_acc": 1,
+      "testNotes": "Neutrophil count is \" Inconclusive \"",
+      "testNotes_acc": 1
+    },
+    {
+      "startDate": "01-SEP-2016",
+      "startDate_acc": 1,
+      "testName": "Platelet count",
+      "testName_acc": 1,
+      "testResult": "33000",
+      "testResult_acc": 1,
+      "testResultUnit": "l",
+      "testResultUnit_acc": 1,
+      "testAssessment": "abnormal",
+      "testAssessment_acc": 1,
+      "testNotes": "\" Abnormal Condition \"",
+      "testNotes_acc": 1
+    },
+    {
+      "startDate": "01-SEP-2016",
+      "startDate_acc": 1,
+      "testName": "Serology positive",
+      "testName_acc": 1,
+      "testResult": "0",
+      "testResult_acc": 1,
+      "testResultUnit": "g",
+      "testResultUnit_acc": 1,
+      "testAssessment": "Positive",
+      "testAssessment_acc": 1,
+      "testNotes": "Test is \" Positive \"",
+      "testNotes_acc": 1
+    },
+    {
+      "startDate": "01-SEP-2016",
+      "startDate_acc": 1,
+      "testName": "White blood cell count",
+      "testName_acc": 1,
+      "testResult": "60",
+      "testResult_acc": 1,
+      "testResultUnit": "%",
+      "testResultUnit_acc": 1,
+      "testAssessment": "Borderline",
+      "testAssessment_acc": 1,
+      "testNotes": "Patient is on borderline",
+      "testNotes_acc": 1
+    },
+    {
+      "startDate": "01-SEP-2016",
+      "startDate_acc": 0.5,
+      "testName": "Zinc sulphate turbidity test",
+      "testName_acc": 1,
+      "testResult": "60",
+      "testResult_acc": 1,
+      "testResultUnit": "%",
+      "testResultUnit_acc": 1,
+      "testAssessment": "Positive",
+      "testAssessment_acc": 1,
+      "testNotes": "Patient tests \" positive \" for this",
+      "testNotes_acc": 1
+    },
+    {
+      "startDate": "15-SEP-2016",
+      "startDate_acc": 1,
+      "testName": "Zinc sulphate turbidity test",
+      "testName_acc": 1,
+      "testResult": "128",
+      "testResult_acc": 1,
+      "testResultUnit": "%",
+      "testResultUnit_acc": 1,
+      "testAssessment": "normal",
+      "testAssessment_acc": 1,
+      "testNotes": "Patient is \" Normal \"",
+      "testNotes_acc": 1
+    }
+  ],
+  "seriousnesses": [
+    {
+      "value": "Hospitalization",
+      "value_acc": 0.95
+    },
+    {
+      "value": "Disabling",
+      "value_acc": 0.95
+    },
+    {
+      "value": "Life Threatening",
+      "value_acc": 0.95
+    },
+    {
+      "value": "Intervention Required",
+      "value_acc": 0.95
+    },
+    {
+      "value": "Other Medically Important Condition",
+      "value_acc": 0.95
+    }
+  ],
+  "sourceType": [
+    {
+      "value": "Study",
+      "value_acc": 0.95
+    },
+    {
+      "value": "HCP",
+      "value_acc": 0.95
+    }
+  ],
+  "deathDetail": {
+    "deathDate": {
+      "date": null,
+      "date_acc": null
+    }
+  },
+  "model_type": "Argus",
+  "code": 5,
+  "message": "Form is medwatch or CIOMS. Parsed"
+}

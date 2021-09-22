@@ -1,0 +1,46 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "description": "Unstructured Parser aims to parse all types of unstructured data present in raw medical narratives. It extracts relevant information from free text using machine learning and populates data in the final json to render it on PVIntake UI",
+    "version": "1.0",
+    "title": "Unstructured Parser",
+    "contact": {
+      "email": "sahib.bhalla@rxlogix.com"
+    }
+  },
+  "basePath": "/upload",
+  "tags": [
+    {
+      "description": "Requests for Extracting the data using NER from Unstructured text",
+      "name": "NER"
+    }
+    ],
+  "paths": {
+    "/live": {
+      "post": {
+        "tags": [
+          "NER"
+          ],
+        "summary": "Request for extracting the data by given in raw medical narrative",
+        "parameters": [
+          {
+            "name": "file",
+            "in": "formData",
+            "type": "file",
+            "description": "PDF of raw medical narrative",
+            "default": "",
+            "required": true
+          }
+          ],
+        "responses": {
+          "200": {
+            "description": "Data successfully extracted from the given narrative"
+          },
+          "400": {
+            "description": "Bad Request"
+          }
+        }
+      }
+    }
+  }
+}
