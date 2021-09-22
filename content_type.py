@@ -102,7 +102,7 @@ def digitalpdf_data_extraction(paths, digital_text, scanned):
 	return [content_type, module_name, digital_text]
 
 
-def scannedpdf_data_extraction(paths,scanned):
+def scannedpdf_data_extraction(paths,scan):
 	logger.info("deskew and hocr generator for unknown content type")
 	create_tiff(paths)
 	pdf = pdfplumber.open(paths["ocrpath"] + "/form.pdf")
