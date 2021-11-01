@@ -1,1 +1,6 @@
 This is a test file
+pdf_filename = paths["filepath"]                                  ###"/home/gopal/Desktop/Serious_Switzerland_Initial.pdf"
+pdf_filename_decr = paths["inputpath"] + "/form1.txt"
+call('qpdf --password=%s --decrypt %s %s' %('Pump3401Cart', pdf_filename, pdf_filename_decr), shell=True)
+os.system("mv pdf_filename_decr pdf_filename")
+pdf_info = pdfinfo_from_path(paths["filepath"], userpw="")
