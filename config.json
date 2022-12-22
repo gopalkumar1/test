@@ -1,0 +1,11 @@
+{
+    "base-generic-url": "http://0.0.0.0",
+    "port": 4455,
+    "formids": {
+	"Novartis_cioms": "a9a5b790-4ac0-11ed-bd48-02da1f8f81a5",
+	"MedInfoSys": "4cec2ff2-4f66-11ed-bd48-02da1f8f81a5",
+	"Nordic_cioms": "fa58be02-35a9-11ed-bd48-02da1f8f81a5",
+	"Adis": "0ca72348-4f8e-11ed-bd48-02da1f8f81a5"
+
+    }
+}

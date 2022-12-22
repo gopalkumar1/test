@@ -1,0 +1,1567 @@
+{
+    "createdby": "Admin",
+    "deleteflag": 0,
+    "formstatus": "0",
+    "_id": "5fb62a7bdd8f8b069c8317e4",
+    "formid": "e05f3ae8-2a3f-11eb-b9b6-12414bf81c8f",
+    "formname": "NNI Release 1",
+    "formdescription": "NNI Release 1",
+    "formtype": "digitalpdf",
+    "templateurls": "{\"formID\":\"e05f3ae8-2a3f-11eb-b9b6-12414bf81c8f\",\"formtype\":\"digitalpdf\",\"metadata_json\":{},\"url_docx\":\"\",\"url_pdf\":\"http://18.213.8.225:4466/e05f3ae8-2a3f-11eb-b9b6-12414bf81c8f.pdf\",\"url_png\":[\"http://18.213.8.225:4466/e05f3ae8-2a3f-11eb-b9b6-12414bf81c8f_0.png\",\"http://18.213.8.225:4466/e05f3ae8-2a3f-11eb-b9b6-12414bf81c8f_1.png\"]}\n",
+    "configdefinition": [
+        {
+            "groupoperations": [
+                {
+                    "_id": "5fb62a7bdd8f8b069c8317e6",
+                    "transformcase": "none"
+                },
+                {
+                    "_id": "5fb62a7bdd8f8b069c8317e7",
+                    "transformdateformat": "none"
+                },
+                {
+                    "_id": "5fb62a7bdd8f8b069c8317e8",
+                    "transformnumberformat": "none"
+                },
+                {
+                    "_id": "5fb62a7bdd8f8b069c8317e9",
+                    "concatwithdelimiter": ""
+                },
+                {
+                    "_id": "5fb62a7bdd8f8b069c8317ea",
+                    "padafterconcat": "none"
+                },
+                {
+                    "_id": "5fb62a7bdd8f8b069c8317eb",
+                    "padbeforeconcat": "none"
+                },
+                {
+                    "_id": "5fb62a7bdd8f8b069c8317ec",
+                    "truncateleadingdelimiter": "false"
+                },
+                {
+                    "_id": "5fb62a7bdd8f8b069c8317ed",
+                    "truncatelaggingdelimiter": "false"
+                }
+            ],
+            "annotations": [
+                {
+                    "annotation": {
+                        "datastring": {
+                            "continued": {
+                                "continuedelsewhere": false,
+                                "continuationsymbol": "",
+                                "continuationheader": "",
+                                "continuationfooter": "",
+                                "continuationtype": "",
+                                "appearsonlyoncontinuationsheet": false
+                            },
+                            "setofrows": {
+                                "virtualtable": false,
+                                "borderedtable": false,
+                                "rowseparator": "",
+                                "columnseparator": "",
+                                "rowdelimiter": "",
+                                "columndelimiter": "",
+                                "tableheader": false,
+                                "repeatingtableheader": false,
+                                "columnnames": "",
+                                "tableheaderseparator": "",
+                                "tablestartstring": "",
+                                "tableendstring": "",
+                                "startrow": "",
+                                "endrow": "",
+                                "columntypes": ""
+                            },
+                            "keyvaluepairs": {
+                                "formkeylist": [
+                                    "NNI Employee Aware Date:"
+                                ],
+                                "simplekeymap": [],
+                                "keymapid": "",
+                                "extractionstartposition": "afterstring",
+                                "extractionendposition": "beforestring",
+                                "keystartposition": "linebegining",
+                                "valueendposition": "nextkeystartposition",
+                                "extractionstartstring": "NNI Employee Aware Date:",
+                                "extractionendstring": "NNI Employee Name:",
+                                "keyvalueseperator": ":",
+                                "isrepeatable": false,
+                                "useaddressmacro": false,
+                                "recordseperator": "",
+                                "keyvaluepair": true,
+                                "matchesvaluemap": false
+                            },
+                            "datecleansing": {
+                                "removeleadingwhitespace": false,
+                                "removelaggingwhitespace": false,
+                                "removeleadingstringmatching": "",
+                                "removelaggingstringmatching": ""
+                            },
+                            "stringdelimiters": [
+                                ""
+                            ],
+                            "elements": [
+                                {
+                                    "matchesvaluemap": {
+                                        "valuemapid": "",
+                                        "simplevaluemap": "",
+                                        "matchingtype": "",
+                                        "advtransformationexpression": "",
+                                        "prependstring": "",
+                                        "appendstring": "",
+                                        "nomatchdefault": "",
+                                        "ismapped": false
+                                    },
+                                    "alwaysafter": {
+                                        "afterelementflag": false,
+                                        "includemarkerflag": false,
+                                        "afterelementid": "",
+                                        "aftermarkerstring": "",
+                                        "aftermarkerstringflag": false
+                                    },
+                                    "alwaysbefore": {
+                                        "beforeelementflag": false,
+                                        "includemarkerflag": false,
+                                        "beforeelementid": "",
+                                        "beforemarkerstring": "",
+                                        "beforemarkerstringflag": false
+                                    },
+                                    "elementstatus": "0",
+                                    "matchingparentelement": [],
+                                    "secondaryassociations": [],
+                                    "_id": "5fb62b69dd8f8b069c8317f6",
+                                    "elementtemplatestring": "10-01-2020",
+                                    "elementtype": "simple",
+                                    "elemententity": "admin",
+                                    "elementname": "receiptDate",
+                                    "absoluteposition": "",
+                                    "jsonkeyname": "NNI Employee Aware Date:",
+                                    "dstoentityassociationtype": "onetoone",
+                                    "recordindex": "new record",
+                                    "datatype": "string",
+                                    "alwayspresent": false,
+                                    "associationoperation": "",
+                                    "parententity": "",
+                                    "level": "",
+                                    "rowcellreferenceid": "",
+                                    "paragraphreferenceid": "",
+                                    "entitytype": "non-repeatable",
+                                    "virtualannotationreference": "",
+                                    "elementid": "1001",
+                                    "elementorder": "1"
+                                },
+                                {
+                                    "matchesvaluemap": {
+                                        "valuemapid": "",
+                                        "simplevaluemap": "",
+                                        "matchingtype": "",
+                                        "advtransformationexpression": "",
+                                        "prependstring": "",
+                                        "appendstring": "",
+                                        "nomatchdefault": "",
+                                        "ismapped": false
+                                    },
+                                    "alwaysafter": {
+                                        "afterelementflag": false,
+                                        "includemarkerflag": false,
+                                        "afterelementid": "",
+                                        "aftermarkerstring": "",
+                                        "aftermarkerstringflag": false
+                                    },
+                                    "alwaysbefore": {
+                                        "beforeelementflag": false,
+                                        "includemarkerflag": false,
+                                        "beforeelementid": "",
+                                        "beforemarkerstring": "",
+                                        "beforemarkerstringflag": false
+                                    },
+                                    "elementstatus": "0",
+                                    "matchingparentelement": [],
+                                    "secondaryassociations": [],
+                                    "_id": "5fb656c7dd8f8b069c83183f",
+                                    "elementtemplatestring": "text",
+                                    "elementtype": "simple",
+                                    "elemententity": "admin",
+                                    "elementname": "mostRecentReceiptDate",
+                                    "absoluteposition": "",
+                                    "jsonkeyname": "NNI Employee Aware Date:",
+                                    "dstoentityassociationtype": "onetoone",
+                                    "recordindex": "new record",
+                                    "datatype": "string",
+                                    "alwayspresent": false,
+                                    "associationoperation": "Append to existing value",
+                                    "parententity": "",
+                                    "level": "",
+                                    "rowcellreferenceid": "",
+                                    "paragraphreferenceid": "",
+                                    "entitytype": "non-repeatable",
+                                    "virtualannotationreference": "",
+                                    "elementid": "1025",
+                                    "elementorder": "25"
+                                }
+                            ],
+                            "name": "NNI Employee Aware Date",
+                            "image": false,
+                            "freetext": false,
+                            "paragraph": false,
+                            "delimited": false,
+                            "imagetype": "",
+                            "dstemplatestring": "NNI Employee Aware Date: 22-Aug-2019\n\nNNI Employee Name: RGA (Robert Graeser)\n\nNNI Employee Mobile Number: +1 215-534-8915\n\nNNI Employee Phone Number: +1 215-534-8915\n\nNNI Employee Email Address: RGA@novonordisk.com\n<mailto:RGA@novonordisk.com>\n"
+                        },
+                        "matrixcoordinates": [
+                            ""
+                        ],
+                        "annotationcontenttype": "normal-fullpage",
+                        "annotationcontentlang": "English",
+                        "annotationstatus": "0",
+                        "annotid": "10001",
+                        "annotcoordinates": "620 , 1186 , 2065 , 539",
+                        "annotationmatrix": false,
+                        "startpage": 0,
+                        "afterreferencecoordinates": "",
+                        "beforereferencecoordinates": "",
+                        "afterreferencestring": "",
+                        "beforereferencestring": "",
+                        "isrepeatableannot": false,
+                        "annotationtype": "simple"
+                    },
+                    "_id": "5fb62b16dd8f8b069c8317f5"
+                },
+                {
+                    "annotation": {
+                        "datastring": {
+                            "continued": {
+                                "continuedelsewhere": false,
+                                "continuationsymbol": "",
+                                "continuationheader": "",
+                                "continuationfooter": "",
+                                "continuationtype": "",
+                                "appearsonlyoncontinuationsheet": false
+                            },
+                            "setofrows": {
+                                "virtualtable": false,
+                                "borderedtable": false,
+                                "rowseparator": "",
+                                "columnseparator": "",
+                                "rowdelimiter": "",
+                                "columndelimiter": "",
+                                "tableheader": false,
+                                "repeatingtableheader": false,
+                                "columnnames": "",
+                                "tableheaderseparator": "",
+                                "tablestartstring": "",
+                                "tableendstring": "",
+                                "startrow": "",
+                                "endrow": "",
+                                "columntypes": ""
+                            },
+                            "keyvaluepairs": {
+                                "formkeylist": [
+                                    "Reporter Type:",
+                                    "Reporter Name:",
+                                    "Reporter Address:",
+                                    "Reporter Phone:"
+                                ],
+                                "simplekeymap": [],
+                                "keymapid": "",
+                                "extractionstartposition": "anyformkey",
+                                "extractionendposition": "beforestring",
+                                "keystartposition": "linebegining",
+                                "valueendposition": "nextkeystartposition",
+                                "extractionstartstring": "NNI Employee Email Address:",
+                                "extractionendstring": "Patient Information",
+                                "keyvalueseperator": ":",
+                                "isrepeatable": true,
+                                "useaddressmacro": false,
+                                "recordseperator": "Reporter Type:",
+                                "keyvaluepair": true,
+                                "matchesvaluemap": false
+                            },
+                            "datecleansing": {
+                                "removeleadingwhitespace": false,
+                                "removelaggingwhitespace": false,
+                                "removeleadingstringmatching": "",
+                                "removelaggingstringmatching": ""
+                            },
+                            "stringdelimiters": [
+                                ""
+                            ],
+                            "elements": [
+                                {
+                                    "matchesvaluemap": {
+                                        "valuemapid": "",
+                                        "simplevaluemap": "Doctor__Physician|Nurse__Other health professional|Pharmacist__Pharmacist|Other HCP__Other health professional|Patient__Consumer|Relative/friend of Patient - Consumer|Did Not Ask__Consumer",
+                                        "matchingtype": "contains",
+                                        "advtransformationexpression": "",
+                                        "prependstring": "",
+                                        "appendstring": "",
+                                        "nomatchdefault": "",
+                                        "ismapped": true
+                                    },
+                                    "alwaysafter": {
+                                        "afterelementflag": false,
+                                        "includemarkerflag": false,
+                                        "afterelementid": "",
+                                        "aftermarkerstring": "",
+                                        "aftermarkerstringflag": false
+                                    },
+                                    "alwaysbefore": {
+                                        "beforeelementflag": false,
+                                        "includemarkerflag": false,
+                                        "beforeelementid": "",
+                                        "beforemarkerstring": "",
+                                        "beforemarkerstringflag": false
+                                    },
+                                    "elementstatus": "0",
+                                    "matchingparentelement": [],
+                                    "secondaryassociations": [],
+                                    "_id": "5fb62d9add8f8b069c8317fb",
+                                    "elementtemplatestring": "Doctor",
+                                    "elementtype": "simple",
+                                    "elemententity": "reporters",
+                                    "elementname": "qualification",
+                                    "absoluteposition": "",
+                                    "jsonkeyname": "Reporter Type:",
+                                    "dstoentityassociationtype": "onetoone",
+                                    "recordindex": "new record",
+                                    "datatype": "string",
+                                    "alwayspresent": false,
+                                    "associationoperation": "overwrite if target value null",
+                                    "parententity": "admin",
+                                    "level": "",
+                                    "rowcellreferenceid": "",
+                                    "paragraphreferenceid": "",
+                                    "entitytype": "repeatable",
+                                    "virtualannotationreference": "",
+                                    "elementid": "1002",
+                                    "elementorder": "2"
+                                },
+                                {
+                                    "matchesvaluemap": {
+                                        "valuemapid": "",
+                                        "simplevaluemap": "",
+                                        "matchingtype": "",
+                                        "advtransformationexpression": "",
+                                        "prependstring": "",
+                                        "appendstring": "",
+                                        "nomatchdefault": "",
+                                        "ismapped": false
+                                    },
+                                    "alwaysafter": {
+                                        "afterelementflag": false,
+                                        "includemarkerflag": false,
+                                        "afterelementid": "",
+                                        "aftermarkerstring": "",
+                                        "aftermarkerstringflag": false
+                                    },
+                                    "alwaysbefore": {
+                                        "beforeelementflag": false,
+                                        "includemarkerflag": false,
+                                        "beforeelementid": "",
+                                        "beforemarkerstring": "",
+                                        "beforemarkerstringflag": false
+                                    },
+                                    "elementstatus": "0",
+                                    "matchingparentelement": [],
+                                    "secondaryassociations": [],
+                                    "_id": "5fb62dd1dd8f8b069c8317fd",
+                                    "elementtemplatestring": "name",
+                                    "elementtype": "simple",
+                                    "elemententity": "reporters",
+                                    "elementname": "givenName",
+                                    "absoluteposition": "",
+                                    "jsonkeyname": "Reporter Name:",
+                                    "dstoentityassociationtype": "onetoone",
+                                    "recordindex": "new record",
+                                    "datatype": "string",
+                                    "alwayspresent": false,
+                                    "associationoperation": "",
+                                    "parententity": "admin",
+                                    "level": "",
+                                    "rowcellreferenceid": "",
+                                    "paragraphreferenceid": "",
+                                    "entitytype": "repeatable",
+                                    "virtualannotationreference": "",
+                                    "elementid": "1003",
+                                    "elementorder": "3"
+                                },
+                                {
+                                    "matchesvaluemap": {
+                                        "valuemapid": "",
+                                        "simplevaluemap": "",
+                                        "matchingtype": "",
+                                        "advtransformationexpression": "",
+                                        "prependstring": "",
+                                        "appendstring": "",
+                                        "nomatchdefault": "",
+                                        "ismapped": false
+                                    },
+                                    "alwaysafter": {
+                                        "afterelementflag": false,
+                                        "includemarkerflag": false,
+                                        "afterelementid": "",
+                                        "aftermarkerstring": "",
+                                        "aftermarkerstringflag": false
+                                    },
+                                    "alwaysbefore": {
+                                        "beforeelementflag": false,
+                                        "includemarkerflag": false,
+                                        "beforeelementid": "",
+                                        "beforemarkerstring": "",
+                                        "beforemarkerstringflag": false
+                                    },
+                                    "elementstatus": "0",
+                                    "matchingparentelement": [],
+                                    "secondaryassociations": [],
+                                    "_id": "5fb62e88dd8f8b069c8317fe",
+                                    "elementtemplatestring": "name",
+                                    "elementtype": "simple",
+                                    "elemententity": "reporters",
+                                    "elementname": "country",
+                                    "absoluteposition": "",
+                                    "jsonkeyname": "Reporter Address:",
+                                    "dstoentityassociationtype": "onetoone",
+                                    "recordindex": "new record",
+                                    "datatype": "string",
+                                    "alwayspresent": false,
+                                    "associationoperation": "",
+                                    "parententity": "admin",
+                                    "level": "",
+                                    "rowcellreferenceid": "",
+                                    "paragraphreferenceid": "",
+                                    "entitytype": "repeatable",
+                                    "virtualannotationreference": "",
+                                    "elementid": "1004",
+                                    "elementorder": "4"
+                                },
+                                {
+                                    "matchesvaluemap": {
+                                        "valuemapid": "",
+                                        "simplevaluemap": "",
+                                        "matchingtype": "",
+                                        "advtransformationexpression": "",
+                                        "prependstring": "",
+                                        "appendstring": "",
+                                        "nomatchdefault": "",
+                                        "ismapped": false
+                                    },
+                                    "alwaysafter": {
+                                        "afterelementflag": false,
+                                        "includemarkerflag": false,
+                                        "afterelementid": "",
+                                        "aftermarkerstring": "",
+                                        "aftermarkerstringflag": false
+                                    },
+                                    "alwaysbefore": {
+                                        "beforeelementflag": false,
+                                        "includemarkerflag": false,
+                                        "beforeelementid": "",
+                                        "beforemarkerstring": "",
+                                        "beforemarkerstringflag": false
+                                    },
+                                    "elementstatus": "0",
+                                    "matchingparentelement": [],
+                                    "secondaryassociations": [],
+                                    "_id": "5fb62ea1dd8f8b069c8317ff",
+                                    "elementtemplatestring": "name",
+                                    "elementtype": "simple",
+                                    "elemententity": "reporters",
+                                    "elementname": "telephone",
+                                    "absoluteposition": "",
+                                    "jsonkeyname": "Reporter Phone:",
+                                    "dstoentityassociationtype": "onetoone",
+                                    "recordindex": "new record",
+                                    "datatype": "string",
+                                    "alwayspresent": false,
+                                    "associationoperation": "",
+                                    "parententity": "admin",
+                                    "level": "",
+                                    "rowcellreferenceid": "",
+                                    "paragraphreferenceid": "",
+                                    "entitytype": "repeatable",
+                                    "virtualannotationreference": "",
+                                    "elementid": "1005",
+                                    "elementorder": "5"
+                                }
+                            ],
+                            "name": "Reporter_information",
+                            "image": false,
+                            "freetext": false,
+                            "paragraph": false,
+                            "delimited": false,
+                            "imagetype": "",
+                            "dstemplatestring": "Reporter Type: Pharmacist\n\nReporter Name: Nicole Pezzino\n\nReporter Address: Weis pharmacy 5020 pa -873 Schnecksville pa 18078\nReporter Phone: 6107995481\n"
+                        },
+                        "matrixcoordinates": [
+                            ""
+                        ],
+                        "annotationcontenttype": "normal-fullpage",
+                        "annotationcontentlang": "English",
+                        "annotationstatus": "0",
+                        "annotid": "10002",
+                        "annotcoordinates": "579 , 1830 , 2944 , 453",
+                        "annotationmatrix": false,
+                        "startpage": 0,
+                        "afterreferencecoordinates": "",
+                        "beforereferencecoordinates": "",
+                        "afterreferencestring": "",
+                        "beforereferencestring": "",
+                        "isrepeatableannot": true,
+                        "annotationtype": "simple"
+                    },
+                    "_id": "5fb7f81ba18eb80690e8071a"
+                },
+                {
+                    "annotation": {
+                        "datastring": {
+                            "continued": {
+                                "continuedelsewhere": false,
+                                "continuationsymbol": "",
+                                "continuationheader": "",
+                                "continuationfooter": "",
+                                "continuationtype": "",
+                                "appearsonlyoncontinuationsheet": false
+                            },
+                            "setofrows": {
+                                "virtualtable": false,
+                                "borderedtable": false,
+                                "rowseparator": "",
+                                "columnseparator": "",
+                                "rowdelimiter": "",
+                                "columndelimiter": "",
+                                "tableheader": false,
+                                "repeatingtableheader": false,
+                                "columnnames": "",
+                                "tableheaderseparator": "",
+                                "tablestartstring": "",
+                                "tableendstring": "",
+                                "startrow": "",
+                                "endrow": "",
+                                "columntypes": ""
+                            },
+                            "keyvaluepairs": {
+                                "formkeylist": [
+                                    "Patient Information Not Available / Not Reported:",
+                                    "Patient First Name, Last Name or Initials:",
+                                    "Patient Gender:",
+                                    "Patient Age, Date of Birth or Age Group:",
+                                    "Patient Address:",
+                                    "Patient Phone:"
+                                ],
+                                "simplekeymap": [],
+                                "keymapid": "",
+                                "extractionstartposition": "afterstring",
+                                "extractionendposition": "beforestring",
+                                "keystartposition": "linebegining",
+                                "valueendposition": "nextkeystartposition",
+                                "extractionstartstring": "Patient Information",
+                                "extractionendstring": "Complaint:",
+                                "keyvalueseperator": ":",
+                                "isrepeatable": false,
+                                "useaddressmacro": false,
+                                "recordseperator": "",
+                                "keyvaluepair": true,
+                                "matchesvaluemap": false
+                            },
+                            "datecleansing": {
+                                "removeleadingwhitespace": false,
+                                "removelaggingwhitespace": false,
+                                "removeleadingstringmatching": "",
+                                "removelaggingstringmatching": ""
+                            },
+                            "stringdelimiters": [
+                                ""
+                            ],
+                            "elements": [
+                                {
+                                    "matchesvaluemap": {
+                                        "valuemapid": "",
+                                        "simplevaluemap": "<INITIALS REMOVED>__UNKNOWN|<removed initials>__UNKNOWN|<REMOVED INITIALS>__UNKNOWN|<REMOVED NAME>__UNKNOWN|<removed name>__UNKNOWN|Not reported__UNKNOWN|Not Reported__UNKNOWN|not reported__UNKNOWN|<name removed>__UNKNOWN|<NAME REMOVED>__UNKNOWN|n/a__UNKNOWN|__UNKNOWN",
+                                        "matchingtype": "contains",
+                                        "advtransformationexpression": "",
+                                        "prependstring": "",
+                                        "appendstring": "",
+                                        "nomatchdefault": "",
+                                        "ismapped": true
+                                    },
+                                    "alwaysafter": {
+                                        "afterelementflag": false,
+                                        "includemarkerflag": false,
+                                        "afterelementid": "",
+                                        "aftermarkerstring": "",
+                                        "aftermarkerstringflag": false
+                                    },
+                                    "alwaysbefore": {
+                                        "beforeelementflag": false,
+                                        "includemarkerflag": false,
+                                        "beforeelementid": "",
+                                        "beforemarkerstring": "",
+                                        "beforemarkerstringflag": false
+                                    },
+                                    "elementstatus": "0",
+                                    "matchingparentelement": [],
+                                    "secondaryassociations": [],
+                                    "_id": "5fb65b01dd8f8b069c831842",
+                                    "elementtemplatestring": "name",
+                                    "elementtype": "simple",
+                                    "elemententity": "patient",
+                                    "elementname": "name",
+                                    "absoluteposition": "",
+                                    "jsonkeyname": "Patient First Name, Last Name or Initials:",
+                                    "dstoentityassociationtype": "onetoone",
+                                    "recordindex": "new record",
+                                    "datatype": "string",
+                                    "alwayspresent": false,
+                                    "associationoperation": "overwrite if target value null",
+                                    "parententity": "admin",
+                                    "level": "",
+                                    "rowcellreferenceid": "",
+                                    "paragraphreferenceid": "",
+                                    "entitytype": "non-repeatable",
+                                    "virtualannotationreference": "",
+                                    "elementid": "1006"
+                                },
+                                {
+                                    "matchesvaluemap": {
+                                        "valuemapid": "",
+                                        "simplevaluemap": "",
+                                        "matchingtype": "",
+                                        "advtransformationexpression": "",
+                                        "prependstring": "",
+                                        "appendstring": "",
+                                        "nomatchdefault": "",
+                                        "ismapped": false
+                                    },
+                                    "alwaysafter": {
+                                        "afterelementflag": false,
+                                        "includemarkerflag": false,
+                                        "afterelementid": "",
+                                        "aftermarkerstring": "",
+                                        "aftermarkerstringflag": false
+                                    },
+                                    "alwaysbefore": {
+                                        "beforeelementflag": false,
+                                        "includemarkerflag": false,
+                                        "beforeelementid": "",
+                                        "beforemarkerstring": "",
+                                        "beforemarkerstringflag": false
+                                    },
+                                    "elementstatus": "0",
+                                    "matchingparentelement": [],
+                                    "secondaryassociations": [],
+                                    "_id": "5fb63930dd8f8b069c831806",
+                                    "elementtemplatestring": "name",
+                                    "elementtype": "simple",
+                                    "elemententity": "patient",
+                                    "elementname": "gender",
+                                    "absoluteposition": "",
+                                    "jsonkeyname": "Patient Gender:",
+                                    "dstoentityassociationtype": "onetoone",
+                                    "recordindex": "new record",
+                                    "datatype": "string",
+                                    "alwayspresent": false,
+                                    "associationoperation": "",
+                                    "parententity": "admin",
+                                    "level": "",
+                                    "rowcellreferenceid": "",
+                                    "paragraphreferenceid": "",
+                                    "entitytype": "non-repeatable",
+                                    "virtualannotationreference": "",
+                                    "elementid": "1007",
+                                    "elementorder": "7"
+                                },
+                                {
+                                    "matchesvaluemap": {
+                                        "valuemapid": "",
+                                        "simplevaluemap": "",
+                                        "matchingtype": "",
+                                        "advtransformationexpression": "",
+                                        "prependstring": "",
+                                        "appendstring": "",
+                                        "nomatchdefault": "",
+                                        "ismapped": false
+                                    },
+                                    "alwaysafter": {
+                                        "afterelementflag": false,
+                                        "includemarkerflag": false,
+                                        "afterelementid": "",
+                                        "aftermarkerstring": "",
+                                        "aftermarkerstringflag": false
+                                    },
+                                    "alwaysbefore": {
+                                        "beforeelementflag": false,
+                                        "includemarkerflag": false,
+                                        "beforeelementid": "",
+                                        "beforemarkerstring": "",
+                                        "beforemarkerstringflag": false
+                                    },
+                                    "elementstatus": "0",
+                                    "matchingparentelement": [],
+                                    "secondaryassociations": [],
+                                    "_id": "5fb63958dd8f8b069c831807",
+                                    "elementtemplatestring": "name",
+                                    "elementtype": "simple",
+                                    "elemententity": "patient.age",
+                                    "elementname": "inputValue",
+                                    "absoluteposition": "",
+                                    "jsonkeyname": "Patient Age, Date of Birth or Age Group:",
+                                    "dstoentityassociationtype": "onetoone",
+                                    "recordindex": "new record",
+                                    "datatype": "string",
+                                    "alwayspresent": false,
+                                    "associationoperation": "",
+                                    "parententity": "patient",
+                                    "level": "",
+                                    "rowcellreferenceid": "",
+                                    "paragraphreferenceid": "",
+                                    "entitytype": "non-repeatable",
+                                    "virtualannotationreference": "",
+                                    "elementid": "1008",
+                                    "elementorder": "8"
+                                }
+                            ],
+                            "name": "patient-info",
+                            "image": false,
+                            "freetext": false,
+                            "paragraph": false,
+                            "delimited": false,
+                            "imagetype": "",
+                            "dstemplatestring": "Patient Information Not Available / Not Reported: Not Reported\nPatient First Name, Last Name or Initials:\n\nPatient Age, Date of Birth or Age Group:\n\nPatient Address:\n\nPatient Phone:\n"
+                        },
+                        "matrixcoordinates": [
+                            ""
+                        ],
+                        "annotationcontenttype": "normal-fullpage",
+                        "annotationcontentlang": "English",
+                        "annotationstatus": "0",
+                        "annotid": "10003",
+                        "annotcoordinates": "607 , 2314 , 3329 , 575",
+                        "annotationmatrix": false,
+                        "startpage": 0,
+                        "afterreferencecoordinates": "",
+                        "beforereferencecoordinates": "",
+                        "afterreferencestring": "",
+                        "beforereferencestring": "",
+                        "isrepeatableannot": false,
+                        "annotationtype": "simple"
+                    },
+                    "_id": "5fb636e1dd8f8b069c831801"
+                },
+                {
+                    "annotation": {
+                        "datastring": {
+                            "continued": {
+                                "continuedelsewhere": false,
+                                "continuationsymbol": "",
+                                "continuationheader": "",
+                                "continuationfooter": "",
+                                "continuationtype": "",
+                                "appearsonlyoncontinuationsheet": false
+                            },
+                            "setofrows": {
+                                "virtualtable": false,
+                                "borderedtable": false,
+                                "rowseparator": "",
+                                "columnseparator": "",
+                                "rowdelimiter": "",
+                                "columndelimiter": "",
+                                "tableheader": false,
+                                "repeatingtableheader": false,
+                                "columnnames": "",
+                                "tableheaderseparator": "",
+                                "tablestartstring": "",
+                                "tableendstring": "",
+                                "startrow": "",
+                                "endrow": "",
+                                "columntypes": ""
+                            },
+                            "keyvaluepairs": {
+                                "formkeylist": [
+                                    "Complaint:",
+                                    "Has Patient Recovered:"
+                                ],
+                                "simplekeymap": [],
+                                "keymapid": "",
+                                "extractionstartposition": "afterstring",
+                                "extractionendposition": "beforestring",
+                                "keystartposition": "linebegining",
+                                "valueendposition": "nextkeystartposition",
+                                "extractionstartstring": "Patient Phone:",
+                                "extractionendstring": "Product Name:",
+                                "keyvalueseperator": ":",
+                                "isrepeatable": false,
+                                "useaddressmacro": false,
+                                "recordseperator": "",
+                                "keyvaluepair": true,
+                                "matchesvaluemap": false
+                            },
+                            "datecleansing": {
+                                "removeleadingwhitespace": false,
+                                "removelaggingwhitespace": false,
+                                "removeleadingstringmatching": "",
+                                "removelaggingstringmatching": ""
+                            },
+                            "stringdelimiters": [
+                                ""
+                            ],
+                            "elements": [
+                                {
+                                    "matchesvaluemap": {
+                                        "valuemapid": "",
+                                        "simplevaluemap": "",
+                                        "matchingtype": "",
+                                        "advtransformationexpression": "",
+                                        "prependstring": "",
+                                        "appendstring": "",
+                                        "nomatchdefault": "",
+                                        "ismapped": false
+                                    },
+                                    "alwaysafter": {
+                                        "afterelementflag": false,
+                                        "includemarkerflag": false,
+                                        "afterelementid": "",
+                                        "aftermarkerstring": "",
+                                        "aftermarkerstringflag": false
+                                    },
+                                    "alwaysbefore": {
+                                        "beforeelementflag": false,
+                                        "includemarkerflag": false,
+                                        "beforeelementid": "",
+                                        "beforemarkerstring": "",
+                                        "beforemarkerstringflag": false
+                                    },
+                                    "elementstatus": "0",
+                                    "matchingparentelement": [],
+                                    "secondaryassociations": [],
+                                    "_id": "5fb63bc5dd8f8b069c83180b",
+                                    "elementtemplatestring": "text",
+                                    "elementtype": "simple",
+                                    "elemententity": "events",
+                                    "elementname": "reportedReaction",
+                                    "absoluteposition": "",
+                                    "jsonkeyname": "Complaint:",
+                                    "dstoentityassociationtype": "onetoone",
+                                    "recordindex": "first record",
+                                    "datatype": "string",
+                                    "alwayspresent": false,
+                                    "associationoperation": "",
+                                    "parententity": "admin",
+                                    "level": "",
+                                    "rowcellreferenceid": "",
+                                    "paragraphreferenceid": "",
+                                    "entitytype": "repeatable",
+                                    "virtualannotationreference": "",
+                                    "elementid": "1009",
+                                    "elementorder": "9"
+                                },
+                                {
+                                    "matchesvaluemap": {
+                                        "valuemapid": "",
+                                        "simplevaluemap": "No__Not recovered|Yes__Recovered|Did Not Report__Not reported",
+                                        "matchingtype": "contains",
+                                        "advtransformationexpression": "",
+                                        "prependstring": "",
+                                        "appendstring": "",
+                                        "nomatchdefault": "",
+                                        "ismapped": true
+                                    },
+                                    "alwaysafter": {
+                                        "afterelementflag": false,
+                                        "includemarkerflag": false,
+                                        "afterelementid": "",
+                                        "aftermarkerstring": "",
+                                        "aftermarkerstringflag": false
+                                    },
+                                    "alwaysbefore": {
+                                        "beforeelementflag": false,
+                                        "includemarkerflag": false,
+                                        "beforeelementid": "",
+                                        "beforemarkerstring": "",
+                                        "beforemarkerstringflag": false
+                                    },
+                                    "elementstatus": "0",
+                                    "matchingparentelement": [],
+                                    "secondaryassociations": [],
+                                    "_id": "5fb7484be21b9e0691aecf86",
+                                    "elementtemplatestring": "text",
+                                    "elementtype": "simple",
+                                    "elemententity": "events",
+                                    "elementname": "outcome",
+                                    "absoluteposition": "",
+                                    "jsonkeyname": "Has Patient Recovered:",
+                                    "dstoentityassociationtype": "onetoone",
+                                    "recordindex": "first record",
+                                    "datatype": "string",
+                                    "alwayspresent": false,
+                                    "associationoperation": "overwrite if target value null",
+                                    "parententity": "admin",
+                                    "level": "",
+                                    "rowcellreferenceid": "",
+                                    "paragraphreferenceid": "",
+                                    "entitytype": "repeatable",
+                                    "virtualannotationreference": "",
+                                    "elementid": "1026"
+                                }
+                            ],
+                            "name": "Complaint",
+                            "image": false,
+                            "freetext": false,
+                            "paragraph": false,
+                            "delimited": false,
+                            "imagetype": "",
+                            "dstemplatestring": "Complaint: patient who was recently switched off Lantus to Novolin which caused\ntheir blood glucose to spike from 200s to 450s\n"
+                        },
+                        "matrixcoordinates": [
+                            ""
+                        ],
+                        "annotationcontenttype": "normal-fullpage",
+                        "annotationcontentlang": "English",
+                        "annotationstatus": "0",
+                        "annotid": "10004",
+                        "annotcoordinates": "620 , 2971 , 3338 , 190",
+                        "annotationmatrix": false,
+                        "startpage": 0,
+                        "afterreferencecoordinates": "",
+                        "beforereferencecoordinates": "",
+                        "afterreferencestring": "",
+                        "beforereferencestring": "",
+                        "isrepeatableannot": false,
+                        "annotationtype": "simple"
+                    },
+                    "_id": "5fb747d1e21b9e0691aecf7f"
+                },
+                {
+                    "annotation": {
+                        "datastring": {
+                            "continued": {
+                                "continuedelsewhere": false,
+                                "continuationsymbol": "",
+                                "continuationheader": "",
+                                "continuationfooter": "",
+                                "continuationtype": "",
+                                "appearsonlyoncontinuationsheet": false
+                            },
+                            "setofrows": {
+                                "virtualtable": false,
+                                "borderedtable": false,
+                                "rowseparator": "",
+                                "columnseparator": "",
+                                "rowdelimiter": "",
+                                "columndelimiter": "",
+                                "tableheader": false,
+                                "repeatingtableheader": false,
+                                "columnnames": "",
+                                "tableheaderseparator": "",
+                                "tablestartstring": "",
+                                "tableendstring": "",
+                                "startrow": "",
+                                "endrow": "",
+                                "columntypes": ""
+                            },
+                            "keyvaluepairs": {
+                                "formkeylist": [
+                                    "Product Name:",
+                                    "Dosage Regimen:",
+                                    "Start / Stop Date:",
+                                    "Product Comments:",
+                                    "Action Taken to Product:",
+                                    "Batch Available:",
+                                    "Batch / Lot / Control Number:",
+                                    "Expiration Date:",
+                                    "Available For Return:",
+                                    "Batch Comments:"
+                                ],
+                                "simplekeymap": [],
+                                "keymapid": "",
+                                "extractionstartposition": "afterstring",
+                                "extractionendposition": "beforestring",
+                                "keystartposition": "linebegining",
+                                "valueendposition": "nextkeystartposition",
+                                "extractionstartstring": "Has Patient Recovered:",
+                                "extractionendstring": "REMINDER:",
+                                "keyvalueseperator": ":",
+                                "isrepeatable": true,
+                                "useaddressmacro": false,
+                                "recordseperator": "Product Name:",
+                                "keyvaluepair": true,
+                                "matchesvaluemap": false
+                            },
+                            "datecleansing": {
+                                "removeleadingwhitespace": false,
+                                "removelaggingwhitespace": false,
+                                "removeleadingstringmatching": "",
+                                "removelaggingstringmatching": ""
+                            },
+                            "stringdelimiters": [
+                                ""
+                            ],
+                            "elements": [
+				{
+                                    "matchesvaluemap": {
+                                        "valuemapid": "",
+                                        "simplevaluemap": "",
+                                        "matchingtype": "",
+                                        "advtransformationexpression": "",
+                                        "prependstring": "",
+                                        "appendstring": "",
+                                        "nomatchdefault": "",
+                                        "ismapped": false
+                                    },
+                                    "alwaysafter": {
+                                        "afterelementflag": false,
+                                        "includemarkerflag": false,
+                                        "afterelementid": "",
+                                        "aftermarkerstring": "",
+                                        "aftermarkerstringflag": false
+                                    },
+                                    "alwaysbefore": {
+                                        "beforeelementflag": false,
+                                        "includemarkerflag": false,
+                                        "beforeelementid": "",
+                                        "beforemarkerstring": "",
+                                        "beforemarkerstringflag": false
+                                    },
+                                    "elementstatus": "0",
+                                    "matchingparentelement": [],
+                                    "secondaryassociations": [
+                                        {
+                                            "_id": "5fb7f98ca18eb80690e8072f",
+                                            "secondaryentity": "currententity",
+                                            "secondaryelement": "seq_num",
+                                            "secondaryelementvalue": "__LISTORDER",
+                                            "secondaryassociationoperation": "overwrite if target value null"
+                                        }
+                                    ],
+                                    "_id": "5fb7f98ca18eb80690e8072e",
+                                    "elementtemplatestring": "NOVOLIN",
+                                    "elementtype": "simple",
+                                    "elemententity": "products",
+                                    "elementname": "license_value",
+                                    "absoluteposition": "",
+                                    "jsonkeyname": "Product Name:",
+                                    "dstoentityassociationtype": "onetoone",
+                                    "recordindex": "new record",
+                                    "datatype": "string",
+                                    "alwayspresent": false,
+                                    "associationoperation": "",
+                                    "parententity": "admin",
+                                    "level": "",
+                                    "rowcellreferenceid": "",
+                                    "paragraphreferenceid": "",
+                                    "entitytype": "repeatable",
+                                    "virtualannotationreference": "",
+                                    "elementid": "1027"
+                                },
+                                {
+                                    "matchesvaluemap": {
+                                        "valuemapid": "",
+                                        "simplevaluemap": "",
+                                        "matchingtype": "",
+                                        "advtransformationexpression": "",
+                                        "prependstring": "",
+                                        "appendstring": "",
+                                        "nomatchdefault": "",
+                                        "ismapped": false
+                                    },
+                                    "alwaysafter": {
+                                        "afterelementflag": false,
+                                        "includemarkerflag": false,
+                                        "afterelementid": "",
+                                        "aftermarkerstring": "",
+                                        "aftermarkerstringflag": false
+                                    },
+                                    "alwaysbefore": {
+                                        "beforeelementflag": false,
+                                        "includemarkerflag": false,
+                                        "beforeelementid": "",
+                                        "beforemarkerstring": "",
+                                        "beforemarkerstringflag": false
+                                    },
+                                    "elementstatus": "0",
+                                    "matchingparentelement": [],
+                                    "secondaryassociations": [],
+                                    "_id": "5fb7c8dbe21b9e0691aed133",
+                                    "elementtemplatestring": "12mg",
+                                    "elementtype": "simple",
+                                    "elemententity": "products.doseInformations",
+                                    "elementname": "description",
+                                    "absoluteposition": "",
+                                    "jsonkeyname": "Dosage Regimen:",
+                                    "dstoentityassociationtype": "onetoone",
+                                    "recordindex": "new parent record",
+                                    "datatype": "string",
+                                    "alwayspresent": false,
+                                    "associationoperation": "",
+                                    "parententity": "products",
+                                    "level": "",
+                                    "rowcellreferenceid": "",
+                                    "paragraphreferenceid": "",
+                                    "entitytype": "repeatable",
+                                    "virtualannotationreference": "",
+                                    "elementid": "1028",
+                                    "elementorder": "28"
+                                },
+                                {
+                                    "matchesvaluemap": {
+                                        "valuemapid": "",
+                                        "simplevaluemap": "",
+                                        "matchingtype": "",
+                                        "advtransformationexpression": "",
+                                        "prependstring": "",
+                                        "appendstring": "",
+                                        "nomatchdefault": "",
+                                        "ismapped": false
+                                    },
+                                    "alwaysafter": {
+                                        "afterelementflag": false,
+                                        "includemarkerflag": false,
+                                        "afterelementid": "",
+                                        "aftermarkerstring": "",
+                                        "aftermarkerstringflag": false
+                                    },
+                                    "alwaysbefore": {
+                                        "beforeelementflag": false,
+                                        "includemarkerflag": false,
+                                        "beforeelementid": "",
+                                        "beforemarkerstring": "",
+                                        "beforemarkerstringflag": false
+                                    },
+                                    "elementstatus": "0",
+                                    "matchingparentelement": [],
+                                    "secondaryassociations": [],
+                                    "_id": "5fb7c8ece21b9e0691aed134",
+                                    "elementtemplatestring": "12mg",
+                                    "elementtype": "simple",
+                                    "elemententity": "products.doseInformations",
+                                    "elementname": "startDate",
+                                    "absoluteposition": "",
+                                    "jsonkeyname": "Start / Stop Date:",
+                                    "dstoentityassociationtype": "onetoone",
+                                    "recordindex": "new parent record",
+                                    "datatype": "string",
+                                    "alwayspresent": false,
+                                    "associationoperation": "",
+                                    "parententity": "products",
+                                    "level": "",
+                                    "rowcellreferenceid": "",
+                                    "paragraphreferenceid": "",
+                                    "entitytype": "repeatable",
+                                    "virtualannotationreference": "",
+                                    "elementid": "1029",
+                                    "elementorder": "29"
+                                },
+                                {
+                                    "matchesvaluemap": {
+                                        "valuemapid": "",
+                                        "simplevaluemap": "",
+                                        "matchingtype": "",
+                                        "advtransformationexpression": "",
+                                        "prependstring": "\\nProduct Comments:",
+                                        "appendstring": "",
+                                        "nomatchdefault": "",
+                                        "ismapped": true
+                                    },
+                                    "alwaysafter": {
+                                        "afterelementflag": false,
+                                        "includemarkerflag": false,
+                                        "afterelementid": "",
+                                        "aftermarkerstring": "",
+                                        "aftermarkerstringflag": false
+                                    },
+                                    "alwaysbefore": {
+                                        "beforeelementflag": false,
+                                        "includemarkerflag": false,
+                                        "beforeelementid": "",
+                                        "beforemarkerstring": "",
+                                        "beforemarkerstringflag": false
+                                    },
+                                    "elementstatus": "0",
+                                    "matchingparentelement": [],
+                                    "secondaryassociations": [],
+                                    "_id": "5fb7c991e21b9e0691aed137",
+                                    "elementtemplatestring": "text",
+                                    "elementtype": "simple",
+                                    "elemententity": "summary",
+                                    "elementname": "caseDescription",
+                                    "absoluteposition": "",
+                                    "jsonkeyname": "Product Comments:",
+                                    "dstoentityassociationtype": "onetoone",
+                                    "recordindex": "new record",
+                                    "datatype": "string",
+                                    "alwayspresent": false,
+                                    "associationoperation": "Append to existing value",
+                                    "parententity": "admin",
+                                    "level": "",
+                                    "rowcellreferenceid": "",
+                                    "paragraphreferenceid": "",
+                                    "entitytype": "non-repeatable",
+                                    "virtualannotationreference": "",
+                                    "elementid": "1030",
+                                    "elementorder": "30"
+                                },
+                                {
+                                    "matchesvaluemap": {
+                                        "valuemapid": "",
+                                        "simplevaluemap": "No Action Taken__No Change|Product Discontinued Temporarily__Drug discontinued temporarily|Product Discontinued Temp.__Drug discontinued temporarily|Product Discontinued__Product discontinued due to AE|Dose Decrease__Dose Decreased|Dose Increase__Dose Increased|Did Not Ask__Not reported|Did Not Report__Not reported",
+                                        "matchingtype": "contains",
+                                        "advtransformationexpression": "",
+                                        "prependstring": "",
+                                        "appendstring": "",
+                                        "nomatchdefault": "",
+                                        "ismapped": true
+                                    },
+                                    "alwaysafter": {
+                                        "afterelementflag": false,
+                                        "includemarkerflag": false,
+                                        "afterelementid": "",
+                                        "aftermarkerstring": "",
+                                        "aftermarkerstringflag": false
+                                    },
+                                    "alwaysbefore": {
+                                        "beforeelementflag": false,
+                                        "includemarkerflag": false,
+                                        "beforeelementid": "",
+                                        "beforemarkerstring": "",
+                                        "beforemarkerstringflag": false
+                                    },
+                                    "elementstatus": "0",
+                                    "matchingparentelement": [],
+                                    "secondaryassociations": [],
+                                    "_id": "5fbfb77102e01c06a44e978c",
+                                    "elementtemplatestring": "text",
+                                    "elementtype": "simple",
+                                    "elemententity": "products.actionTaken",
+                                    "elementname": "value",
+                                    "absoluteposition": "",
+                                    "jsonkeyname": "Action Taken to Product:",
+                                    "dstoentityassociationtype": "onetoone",
+                                    "recordindex": "new parent record",
+                                    "datatype": "string",
+                                    "alwayspresent": false,
+                                    "associationoperation": "overwrite if target value null",
+                                    "parententity": "products",
+                                    "level": "",
+                                    "rowcellreferenceid": "",
+                                    "paragraphreferenceid": "",
+                                    "entitytype": "non-repeatable",
+                                    "virtualannotationreference": "",
+                                    "elementid": "1031"
+                                },
+                                {
+                                    "matchesvaluemap": {
+                                        "valuemapid": "",
+                                        "simplevaluemap": "",
+                                        "matchingtype": "",
+                                        "advtransformationexpression": "",
+                                        "prependstring": "\\nBatch Available:",
+                                        "appendstring": "",
+                                        "nomatchdefault": "",
+                                        "ismapped": true
+                                    },
+                                    "alwaysafter": {
+                                        "afterelementflag": false,
+                                        "includemarkerflag": false,
+                                        "afterelementid": "",
+                                        "aftermarkerstring": "",
+                                        "aftermarkerstringflag": false
+                                    },
+                                    "alwaysbefore": {
+                                        "beforeelementflag": false,
+                                        "includemarkerflag": false,
+                                        "beforeelementid": "",
+                                        "beforemarkerstring": "",
+                                        "beforemarkerstringflag": false
+                                    },
+                                    "elementstatus": "0",
+                                    "matchingparentelement": [],
+                                    "secondaryassociations": [],
+                                    "_id": "5fb7cabee21b9e0691aed13b",
+                                    "elementtemplatestring": "text",
+                                    "elementtype": "simple",
+                                    "elemententity": "summary",
+                                    "elementname": "caseDescription",
+                                    "absoluteposition": "",
+                                    "jsonkeyname": "Batch Available:",
+                                    "dstoentityassociationtype": "onetoone",
+                                    "recordindex": "new record",
+                                    "datatype": "string",
+                                    "alwayspresent": false,
+                                    "associationoperation": "Append to existing value",
+                                    "parententity": "admin",
+                                    "level": "",
+                                    "rowcellreferenceid": "",
+                                    "paragraphreferenceid": "",
+                                    "entitytype": "non-repeatable",
+                                    "virtualannotationreference": "",
+                                    "elementid": "1032",
+                                    "elementorder": "32"
+                                },
+                                {
+                                    "matchesvaluemap": {
+                                        "valuemapid": "",
+                                        "simplevaluemap": "",
+                                        "matchingtype": "",
+                                        "advtransformationexpression": "",
+                                        "prependstring": "",
+                                        "appendstring": "",
+                                        "nomatchdefault": "",
+                                        "ismapped": false
+                                    },
+                                    "alwaysafter": {
+                                        "afterelementflag": false,
+                                        "includemarkerflag": false,
+                                        "afterelementid": "",
+                                        "aftermarkerstring": "",
+                                        "aftermarkerstringflag": false
+                                    },
+                                    "alwaysbefore": {
+                                        "beforeelementflag": false,
+                                        "includemarkerflag": false,
+                                        "beforeelementid": "",
+                                        "beforemarkerstring": "",
+                                        "beforemarkerstringflag": false
+                                    },
+                                    "elementstatus": "0",
+                                    "matchingparentelement": [],
+                                    "secondaryassociations": [],
+                                    "_id": "5fb7cb0de21b9e0691aed13d",
+                                    "elementtemplatestring": "text",
+                                    "elementtype": "simple",
+                                    "elemententity": "products.doseInformations",
+                                    "elementname": "customProperty_batchNumber_value",
+                                    "absoluteposition": "",
+                                    "jsonkeyname": "Batch / Lot / Control Number:",
+                                    "dstoentityassociationtype": "onetoone",
+                                    "recordindex": "new parent record",
+                                    "datatype": "string",
+                                    "alwayspresent": false,
+                                    "associationoperation": "",
+                                    "parententity": "products",
+                                    "level": "",
+                                    "rowcellreferenceid": "",
+                                    "paragraphreferenceid": "",
+                                    "entitytype": "repeatable",
+                                    "virtualannotationreference": "",
+                                    "elementid": "1033",
+                                    "elementorder": "33"
+                                },
+                                {
+                                    "matchesvaluemap": {
+                                        "valuemapid": "",
+                                        "simplevaluemap": "",
+                                        "matchingtype": "",
+                                        "advtransformationexpression": "",
+                                        "prependstring": "||",
+                                        "appendstring": "",
+                                        "nomatchdefault": "",
+                                        "ismapped": true
+                                    },
+                                    "alwaysafter": {
+                                        "afterelementflag": false,
+                                        "includemarkerflag": false,
+                                        "afterelementid": "",
+                                        "aftermarkerstring": "",
+                                        "aftermarkerstringflag": false
+                                    },
+                                    "alwaysbefore": {
+                                        "beforeelementflag": false,
+                                        "includemarkerflag": false,
+                                        "beforeelementid": "",
+                                        "beforemarkerstring": "",
+                                        "beforemarkerstringflag": false
+                                    },
+                                    "elementstatus": "0",
+                                    "matchingparentelement": [],
+                                    "secondaryassociations": [],
+                                    "_id": "5fb7cb2ae21b9e0691aed13e",
+                                    "elementtemplatestring": "text",
+                                    "elementtype": "simple",
+                                    "elemententity": "products.doseInformations",
+                                    "elementname": "customProperty_batchNumber_value",
+                                    "absoluteposition": "",
+                                    "jsonkeyname": "Expiration Date:",
+                                    "dstoentityassociationtype": "onetoone",
+                                    "recordindex": "new parent record",
+                                    "datatype": "string",
+                                    "alwayspresent": false,
+                                    "associationoperation": "Append to existing value",
+                                    "parententity": "products",
+                                    "level": "",
+                                    "rowcellreferenceid": "",
+                                    "paragraphreferenceid": "",
+                                    "entitytype": "repeatable",
+                                    "virtualannotationreference": "",
+                                    "elementid": "1034",
+                                    "elementorder": "34"
+                                },
+                                {
+                                    "matchesvaluemap": {
+                                        "valuemapid": "",
+                                        "simplevaluemap": "No__Declined|Yes__Agreed|__Not requested|\"\"__Not requested",
+                                        "matchingtype": "contains",
+                                        "advtransformationexpression": "",
+                                        "prependstring": "\\nAvailable For Return:",
+                                        "appendstring": "",
+                                        "nomatchdefault": "",
+                                        "ismapped": true
+                                    },
+                                    "alwaysafter": {
+                                        "afterelementflag": false,
+                                        "includemarkerflag": false,
+                                        "afterelementid": "",
+                                        "aftermarkerstring": "",
+                                        "aftermarkerstringflag": false
+                                    },
+                                    "alwaysbefore": {
+                                        "beforeelementflag": false,
+                                        "includemarkerflag": false,
+                                        "beforeelementid": "",
+                                        "beforemarkerstring": "",
+                                        "beforemarkerstringflag": false
+                                    },
+                                    "elementstatus": "0",
+                                    "matchingparentelement": [],
+                                    "secondaryassociations": [],
+                                    "_id": "5fb7d073e21b9e0691aed147",
+                                    "elementtemplatestring": "text",
+                                    "elementtype": "simple",
+                                    "elemententity": "summary",
+                                    "elementname": "caseDescription",
+                                    "absoluteposition": "",
+                                    "jsonkeyname": "Available For Return:",
+                                    "dstoentityassociationtype": "onetoone",
+                                    "recordindex": "new record",
+                                    "datatype": "string",
+                                    "alwayspresent": false,
+                                    "associationoperation": "Append to existing value",
+                                    "parententity": "admin",
+                                    "level": "",
+                                    "rowcellreferenceid": "",
+                                    "paragraphreferenceid": "",
+                                    "entitytype": "non-repeatable",
+                                    "virtualannotationreference": "",
+                                    "elementid": "1035"
+                                },
+                                {
+                                    "matchesvaluemap": {
+                                        "valuemapid": "",
+                                        "simplevaluemap": "__<empty>|",
+                                        "matchingtype": "contains",
+                                        "advtransformationexpression": "",
+                                        "prependstring": "\\nBatch Comments:",
+                                        "appendstring": "",
+                                        "nomatchdefault": "",
+                                        "ismapped": true
+                                    },
+                                    "alwaysafter": {
+                                        "afterelementflag": false,
+                                        "includemarkerflag": false,
+                                        "afterelementid": "",
+                                        "aftermarkerstring": "",
+                                        "aftermarkerstringflag": false
+                                    },
+                                    "alwaysbefore": {
+                                        "beforeelementflag": false,
+                                        "includemarkerflag": false,
+                                        "beforeelementid": "",
+                                        "beforemarkerstring": "",
+                                        "beforemarkerstringflag": false
+                                    },
+                                    "elementstatus": "0",
+                                    "matchingparentelement": [],
+                                    "secondaryassociations": [],
+                                    "_id": "5fc0824197761a0698c2adb9",
+                                    "elementtemplatestring": "text",
+                                    "elementtype": "simple",
+                                    "elemententity": "summary",
+                                    "elementname": "caseDescription",
+                                    "absoluteposition": "",
+                                    "jsonkeyname": "Batch Comments:",
+                                    "dstoentityassociationtype": "onetoone",
+                                    "recordindex": "new record",
+                                    "datatype": "string",
+                                    "alwayspresent": false,
+                                    "associationoperation": "Append to existing value",
+                                    "parententity": "admin",
+                                    "level": "",
+                                    "rowcellreferenceid": "",
+                                    "paragraphreferenceid": "",
+                                    "entitytype": "non-repeatable",
+                                    "virtualannotationreference": "",
+                                    "elementid": "1036"
+                                }
+                            ],
+                            "name": "Product_info",
+                            "image": false,
+                            "freetext": false,
+                            "paragraph": false,
+                            "delimited": false,
+                            "imagetype": "",
+                            "dstemplatestring": "Product Name: NOVOLIN N\n\nDosage Regimen: unknown\n\nStart / Stop Date:\n\nProduct Comments:\n\nAction Taken to Product: No Action Taken\nBatch Available: No\n\nBatch / Lot / Control Number:\n\nExpiration Date:\n\nAvailable For Return:\n\nBatch Comments:\n"
+                        },
+                        "matrixcoordinates": [
+                            ""
+                        ],
+                        "annotationcontenttype": "normal-fullpage",
+                        "annotationcontentlang": "English",
+                        "annotationstatus": "0",
+                        "annotid": "10006",
+                        "annotcoordinates": "588 , 3701 , 2355 , 906",
+                        "annotationmatrix": false,
+                        "startpage": 0,
+                        "afterreferencecoordinates": "",
+                        "beforereferencecoordinates": "",
+                        "afterreferencestring": "",
+                        "beforereferencestring": "",
+                        "isrepeatableannot": true,
+                        "annotationtype": "simple"
+                    },
+                    "_id": "5fb7f82ca18eb80690e80721"
+                }
+            ],
+            "_id": "5fb62a7bdd8f8b069c8317e5",
+            "groupid": 1
+        }
+    ],
+    "docxmetadata": {
+        "_id": "5fb62a7bdd8f8b069c8317ee",
+        "tables": [],
+        "paragraphs": []
+    },
+    "formsummary": {
+        "_id": "5fb62a7bdd8f8b069c8317ef",
+        "pages": [
+            {
+                "pageheaderidentifier": [
+                    ""
+                ],
+                "pagefooteridentifier": [],
+                "sectionheaders": [],
+                "_id": "5fb62a7bdd8f8b069c8317f0",
+                "pageno": "0",
+                "pagetype": "simple",
+                "repeatablepage": "false",
+                "pageurl": "http://18.213.8.225:4466/e05f3ae8-2a3f-11eb-b9b6-12414bf81c8f_0.png"
+            },
+            {
+                "pageheaderidentifier": [
+                    ""
+                ],
+                "pagefooteridentifier": [],
+                "sectionheaders": [],
+                "_id": "5fb62a7bdd8f8b069c8317f1",
+                "pageno": "1",
+                "pagetype": "simple",
+                "repeatablepage": "false",
+                "pageurl": "http://18.213.8.225:4466/e05f3ae8-2a3f-11eb-b9b6-12414bf81c8f_1.png"
+            }
+        ],
+        "continuationsheets": "",
+        "containscoversheets": "false",
+        "continuationpageheader": "",
+        "continuationpagefooter": ""
+    },
+    "outputformat": "PVI_4.6",
+    "createdon": "2020-11-19T08:19:07.674Z"
+}

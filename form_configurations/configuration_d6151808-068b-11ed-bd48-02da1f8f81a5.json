@@ -1,0 +1,87 @@
+{
+    "multithread": false,
+    "cpu_cores": "17",
+    "default_param":false,
+    "base-url-external": "0.0.0.0",
+    "base-url-internal":  "0.0.0.0",
+    "abbyy_port": 5000,
+    "form-process-service-port": 4455,
+    "ui-support-services-port": 4466,
+    "S3-credentials": {
+        "bucket": "generic-form-parser-configurations",
+        "ACCESS_KEY": "AKIATGJNP6LASYZ3Z542",
+        "SECRET_KEY": "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"
+    },
+    "supported-doctypes": {
+        "digitalpdf": true,
+        "imagepdf": false,
+        "docx": false
+    },
+    "address-parser": false,
+    "ocr": {
+        "required": true,
+        "tools": [
+            "tesserocr"
+        ]
+    },
+    "logs-folder": "/backendservice/utility/logs/form-process-service/generic-api-logs.log",
+    "png-conversion-factor": "500",
+    "table_constants": {
+        "HEIGHT_MIN": 30,
+        "ROW_BREAKER_THRESHOLD" : 15,
+        "KERNEL_LENGTH" : 50,
+        "KERNEL_HEIGHT" : 1
+    },
+    "table_parameters":
+    {
+        "regex_based_row_split" : false,
+        "ocr": ["tesserocr"],
+        "table_checkbox_OCR_tool": [""]
+    },
+    "checkbox": {
+        "ignore_pixels_left": 16,
+        "ignore_pixels_right": 20,
+        "ignore_pixels_top": 16,
+        "ignore_pixels_bottom": 20,
+        "ignore_pixels_per_cell": 10,
+        "threshold": 2500,
+        "bw_thresh": 150
+    },
+    "checkbox_constants": {
+        "PLUMBER_TOIMAGE_RESOLUTION": null,
+        "CLASSIFIER_THRESHOLD": 50,
+        "GRAY_REMOVAL_THRESH": 170,
+        "WIDTH_THRESH": 12,
+        "OVERLAPPING_COORDINATE_THRESH" : 15,
+        "WHITE_PIXEL_THRESH" : 5
+    },
+    "checkbox_params": {
+        "SMOOTHING": 5,
+        "rectangle_checkbox": 
+        {
+        "height_min": 25,
+        "height_max": 70,
+        "width_min": 25,
+        "width_max": 70 
+        },
+     "multiple_checkbox_sort_type":"top-to-bottom"
+    },
+    
+    "handwritten_text" : {
+    "handle_handwritten" : "no",
+    "handwritten_sections": ["Events Description","pat_height_value","pat_weight_value","pat_firstname","pat_lastname"]
+    },
+    
+    "fuzzy_threshold": 85,
+    
+    "table_type_detector_params":
+    {
+        "THRESHOLD_CONSTANT" : 1,
+        "BLOCK_SIZE" : 25
+    },
+    "checkbox_scale_factor":  {"CHECKBOX_X_SCALE_FACTOR" : 2.9, "CHECKBOX_Y_SCALE_FACTOR" : 2.9},
+
+"MIN_ROW_PIXELS_DIFF" : 2,
+
+"plumber_tolerance":  {"PLUMBER_X_TOLERANCE" : 1, "PLUMBER_Y_TOLERANCE" :1}
+}

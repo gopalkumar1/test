@@ -1,0 +1,538 @@
+{
+  "createdby": "Admin",
+  "deleteflag": 0,
+  "formstatus": "0",
+  "_id": "62a977061797c5278056946e",
+  "formid": "5e4af9a2-ec71-11ec-a9c9-12414bf81c8f",
+  "formname": "New_genmab_initial_form",
+  "formdescription": "New_genmab",
+  "formtype": "digitalpdf",
+  "configdefinition": [
+    {
+      "groupoperations": [
+        {
+          "_id": "62a977061797c52780569470",
+          "transformcase": "none"
+        },
+        {
+          "_id": "62a977061797c52780569471",
+          "transformdateformat": "none"
+        },
+        {
+          "_id": "62a977061797c52780569472",
+          "transformnumberformat": "none"
+        },
+        {
+          "_id": "62a977061797c52780569473",
+          "concatwithdelimiter": ""
+        },
+        {
+          "_id": "62a977061797c52780569474",
+          "padafterconcat": "none"
+        },
+        {
+          "_id": "62a977061797c52780569475",
+          "padbeforeconcat": "none"
+        },
+        {
+          "_id": "62a977061797c52780569476",
+          "truncateleadingdelimiter": "false"
+        },
+        {
+          "_id": "62a977061797c52780569477",
+          "truncatelaggingdelimiter": "false"
+        }
+      ],
+      "annotations": [
+        {
+          "annotation": {
+            "datastring": {
+              "continued": {
+                "continuedelsewhere": false,
+                "continuationsymbol": "",
+                "continuationheader": "",
+                "continuationfooter": "",
+                "continuationtype": "",
+                "appearsonlyoncontinuationsheet": false
+              },
+              "setofrows": {
+                "rowtransformlength": "1",
+                "celltransformlength": "1",
+                "chref": [],
+                "virtualtable": false,
+                "borderedtable": false,
+                "rowseparator": "",
+                "columnseparator": "",
+                "rowdelimiter": "",
+                "columndelimiter": "",
+                "tableheader": false,
+                "repeatingtableheader": false,
+                "columnnames": "",
+                "tableheaderseparator": "",
+                "tablestartstring": "",
+                "tableendstring": "",
+                "startrow": "",
+                "endrow": "",
+                "columntypes": "",
+                "transformtable": false,
+                "repeatingsectionheader": false,
+                "spacebetweenrows": "",
+                "tableheaderregionsize": "",
+                "nestedtablemap": ""
+              },
+              "keyvaluepairs": {
+                "formkeylist": [
+                  "Sent:"
+                ],
+                "simplekeymap": [],
+                "keymapid": "",
+                "extractionstartposition": "",
+                "extractionendposition": "",
+                "keystartposition": "",
+                "valueendposition": "",
+                "extractionstartstring": "Sent:",
+                "extractionendstring": "Subject:",
+                "keyvalueseperator": ":",
+                "isrepeatable": false,
+                "useaddressmacro": false,
+                "recordseperator": "",
+                "keyvaluepair": true,
+                "matchesvaluemap": false
+              },
+              "datecleansing": {
+                "removeleadingwhitespace": false,
+                "removelaggingwhitespace": false,
+                "removeleadingstringmatching": "",
+                "removelaggingstringmatching": ""
+              },
+              "stringdelimiters": [
+                ""
+              ],
+              "elements": [],
+              "name": "Sent_intial_receipt_date",
+              "image": false,
+              "freetext": false,
+              "paragraph": false,
+              "delimited": false,
+              "imagetype": "",
+              "dstemplatestring": "25 April 2022 15:00\n"
+            },
+            "matrixcoordinates": [
+              ""
+            ],
+            "tablereferenceid": null,
+            "annotationcontenttype": "normal-fullpage",
+            "annotationcontentlang": "English",
+            "annotationstatus": "0",
+            "xmlreferenceid": null,
+            "csvreferenceid": null,
+            "nestedtablereferenceid": null,
+            "rowreferenceid": null,
+            "cellreferenceid": null,
+            "rowreferencelength": "1",
+            "cellreferencelength": "1",
+            "annotid": "10001",
+            "annotcoordinates": "1295 , 645 , 685 , 90",
+            "annotationmatrix": false,
+            "startpage": 0,
+            "afterreferencecoordinates": "",
+            "beforereferencecoordinates": "",
+            "afterreferencestring": "",
+            "beforereferencestring": "",
+            "isrepeatableannot": false,
+            "annotationtype": "simple"
+          },
+          "_id": "62a977f31797c5278056947d"
+        },
+        {
+          "annotation": {
+            "datastring": {
+              "continued": {
+                "continuedelsewhere": false,
+                "continuationsymbol": "",
+                "continuationheader": "",
+                "continuationfooter": "",
+                "continuationtype": "",
+                "appearsonlyoncontinuationsheet": false
+              },
+              "setofrows": {
+                "rowtransformlength": "1",
+                "celltransformlength": "1",
+                "chref": [],
+                "virtualtable": false,
+                "borderedtable": false,
+                "rowseparator": "",
+                "columnseparator": "",
+                "rowdelimiter": "",
+                "columndelimiter": "",
+                "tableheader": false,
+                "repeatingtableheader": false,
+                "columnnames": "",
+                "tableheaderseparator": "",
+                "tablestartstring": "",
+                "tableendstring": "",
+                "startrow": "",
+                "endrow": "",
+                "columntypes": "",
+                "transformtable": false,
+                "repeatingsectionheader": false,
+                "spacebetweenrows": "",
+                "tableheaderregionsize": "",
+                "nestedtablemap": ""
+              },
+              "keyvaluepairs": {
+                "formkeylist": [
+                  "Protocol:",
+                  "Site ID:",
+                  "Subject ID:",
+                  "AEID:"
+                ],
+                "simplekeymap": [],
+                "keymapid": "",
+                "extractionstartposition": "",
+                "extractionendposition": "",
+                "keystartposition": "",
+                "valueendposition": "",
+                "extractionstartstring": "Protocol:",
+                "extractionendstring": "Field(s) where",
+                "keyvalueseperator": ":",
+                "isrepeatable": false,
+                "useaddressmacro": false,
+                "recordseperator": "",
+                "keyvaluepair": true,
+                "matchesvaluemap": false
+              },
+              "datecleansing": {
+                "removeleadingwhitespace": false,
+                "removelaggingwhitespace": false,
+                "removeleadingstringmatching": "",
+                "removelaggingstringmatching": ""
+              },
+              "stringdelimiters": [
+                ""
+              ],
+              "elements": [
+                {
+                  "matchesvaluemap": {
+                    "outputtime": true,
+                    "valuemapid": "",
+                    "simplevaluemap": "",
+                    "matchingtype": "",
+                    "advtransformationexpression": "",
+                    "prependstring": "",
+                    "appendstring": "",
+                    "nomatchdefault": "",
+                    "outputdateformat": "",
+                    "ismapped": false,
+                    "inputdateformat": ""
+                  },
+                  "alwaysafter": {
+                    "afterelementflag": false,
+                    "includemarkerflag": false,
+                    "afterelementid": "",
+                    "aftermarkerstring": "",
+                    "aftermarkerstringflag": false
+                  },
+                  "alwaysbefore": {
+                    "beforeelementflag": false,
+                    "includemarkerflag": false,
+                    "beforeelementid": "",
+                    "beforemarkerstring": "",
+                    "beforemarkerstringflag": false
+                  },
+                  "elementstatus": "0",
+                  "matchingparentelement": [],
+                  "secondaryassociations": [],
+                  "_id": "62a97bf01797c5278056959d",
+                  "elementtemplatestring": "text",
+                  "elementtype": "simple",
+                  "elemententity": "products",
+                  "elementname": "license_value",
+                  "absoluteposition": "",
+                  "jsonkeyname": "Protocol:",
+                  "dstoentityassociationtype": "onetoone",
+                  "recordindex": "new record",
+                  "datatype": "string",
+                  "alwayspresent": false,
+                  "associationoperation": "",
+                  "parententity": "admin",
+                  "level": "",
+                  "rowcellreferenceid": "",
+                  "paragraphreferenceid": "",
+                  "entitytype": "repeatable",
+                  "virtualannotationreference": "",
+                  "elementid": "1001",
+                  "elementorder": "1"
+                },
+                {
+                  "matchesvaluemap": {
+                    "outputtime": true,
+                    "valuemapid": "",
+                    "simplevaluemap": "",
+                    "matchingtype": "",
+                    "advtransformationexpression": "",
+                    "prependstring": "",
+                    "appendstring": "",
+                    "nomatchdefault": "",
+                    "outputdateformat": "",
+                    "ismapped": false,
+                    "inputdateformat": ""
+                  },
+                  "alwaysafter": {
+                    "afterelementflag": false,
+                    "includemarkerflag": false,
+                    "afterelementid": "",
+                    "aftermarkerstring": "",
+                    "aftermarkerstringflag": false
+                  },
+                  "alwaysbefore": {
+                    "beforeelementflag": false,
+                    "includemarkerflag": false,
+                    "beforeelementid": "",
+                    "beforemarkerstring": "",
+                    "beforemarkerstringflag": false
+                  },
+                  "elementstatus": "0",
+                  "matchingparentelement": [],
+                  "secondaryassociations": [],
+                  "_id": "62a97c151797c527805695a1",
+                  "elementtemplatestring": "text",
+                  "elementtype": "simple",
+                  "elemententity": "events",
+                  "elementname": "country",
+                  "absoluteposition": "",
+                  "jsonkeyname": "Site ID:",
+                  "dstoentityassociationtype": "onetoone",
+                  "recordindex": "new record",
+                  "datatype": "string",
+                  "alwayspresent": false,
+                  "associationoperation": "",
+                  "parententity": "admin",
+                  "level": "",
+                  "rowcellreferenceid": "",
+                  "paragraphreferenceid": "",
+                  "entitytype": "repeatable",
+                  "virtualannotationreference": "",
+                  "elementid": "1002",
+                  "elementorder": "2"
+                },
+                {
+                  "matchesvaluemap": {
+                    "outputtime": true,
+                    "valuemapid": "",
+                    "simplevaluemap": "",
+                    "matchingtype": "",
+                    "advtransformationexpression": "",
+                    "prependstring": "",
+                    "appendstring": "",
+                    "nomatchdefault": "",
+                    "outputdateformat": "",
+                    "ismapped": false,
+                    "inputdateformat": ""
+                  },
+                  "alwaysafter": {
+                    "afterelementflag": false,
+                    "includemarkerflag": false,
+                    "afterelementid": "",
+                    "aftermarkerstring": "^\\d+\\s",
+                    "aftermarkerstringflag": true
+                  },
+                  "alwaysbefore": {
+                    "beforeelementflag": false,
+                    "includemarkerflag": false,
+                    "beforeelementid": "",
+                    "beforemarkerstring": "\\W+\\d+\\D+\\w+\\d$",
+                    "beforemarkerstringflag": true
+                  },
+                  "elementstatus": "0",
+                  "matchingparentelement": [],
+                  "secondaryassociations": [],
+                  "_id": "62a980201797c527805695f7",
+                  "elementtemplatestring": "text",
+                  "elementtype": "simple",
+                  "elemententity": "events",
+                  "elementname": "reportedReaction",
+                  "absoluteposition": "",
+                  "jsonkeyname": "AEID:",
+                  "dstoentityassociationtype": "onetoone",
+                  "recordindex": "last record",
+                  "datatype": "string",
+                  "alwayspresent": false,
+                  "associationoperation": "",
+                  "parententity": "admin",
+                  "level": "",
+                  "rowcellreferenceid": "",
+                  "paragraphreferenceid": "",
+                  "entitytype": "repeatable",
+                  "virtualannotationreference": "",
+                  "elementid": "1003"
+                },
+                {
+                  "matchesvaluemap": {
+                    "outputtime": true,
+                    "valuemapid": "",
+                    "simplevaluemap": "",
+                    "matchingtype": "",
+                    "advtransformationexpression": "",
+                    "prependstring": "",
+                    "appendstring": "",
+                    "nomatchdefault": "",
+                    "outputdateformat": "%d-%b-%Y",
+                    "ismapped": false,
+                    "inputdateformat": "%d %b %Y"
+                  },
+                  "alwaysafter": {
+                    "afterelementflag": false,
+                    "includemarkerflag": false,
+                    "afterelementid": "",
+                    "aftermarkerstring": "\\d+\\s*\\D+\\-+\\s+\\D\\D\\D\\D+\\-+\\s",
+                    "aftermarkerstringflag": true
+                  },
+                  "alwaysbefore": {
+                    "beforeelementflag": false,
+                    "includemarkerflag": false,
+                    "beforeelementid": "",
+                    "beforemarkerstring": "",
+                    "beforemarkerstringflag": false
+                  },
+                  "elementstatus": "0",
+                  "matchingparentelement": [],
+                  "secondaryassociations": [],
+                  "_id": "62a9842d1797c52780569640",
+                  "elementtemplatestring": "text",
+                  "elementtype": "simple",
+                  "elemententity": "events",
+                  "elementname": "startDate",
+                  "absoluteposition": "",
+                  "jsonkeyname": "AEID:",
+                  "dstoentityassociationtype": "onetoone",
+                  "recordindex": "last record",
+                  "datatype": "string",
+                  "alwayspresent": false,
+                  "associationoperation": "",
+                  "parententity": "admin",
+                  "level": "",
+                  "rowcellreferenceid": "",
+                  "paragraphreferenceid": "",
+                  "entitytype": "repeatable",
+                  "virtualannotationreference": "",
+                  "elementid": "1004"
+                },
+                {
+                  "matchesvaluemap": {
+                    "outputtime": true,
+                    "valuemapid": "",
+                    "simplevaluemap": "",
+                    "matchingtype": "",
+                    "advtransformationexpression": "",
+                    "prependstring": "",
+                    "appendstring": "",
+                    "nomatchdefault": "",
+                    "outputdateformat": "",
+                    "ismapped": false,
+                    "inputdateformat": ""
+                  },
+                  "alwaysafter": {
+                    "afterelementflag": true,
+                    "includemarkerflag": false,
+                    "afterelementid": "1003",
+                    "aftermarkerstring": "",
+                    "aftermarkerstringflag": false
+                  },
+                  "alwaysbefore": {
+                    "beforeelementflag": false,
+                    "includemarkerflag": false,
+                    "beforeelementid": "",
+                    "beforemarkerstring": "",
+                    "beforemarkerstringflag": false
+                  },
+                  "elementstatus": "0",
+                  "matchingparentelement": [],
+                  "secondaryassociations": [],
+                  "_id": "62a97d871797c527805695c9",
+                  "elementtemplatestring": "text",
+                  "elementtype": "simple",
+                  "elemententity": "admin",
+                  "elementname": "senderCaseUid",
+                  "absoluteposition": "",
+                  "jsonkeyname": "Protocol:",
+                  "dstoentityassociationtype": "onetoone",
+                  "recordindex": "new record",
+                  "datatype": "string",
+                  "alwayspresent": false,
+                  "associationoperation": "",
+                  "parententity": "",
+                  "level": "",
+                  "rowcellreferenceid": "",
+                  "paragraphreferenceid": "",
+                  "entitytype": "non-repeatable",
+                  "virtualannotationreference": "",
+                  "elementid": "1006",
+                  "elementorder": "6"
+                }
+              ],
+              "name": "Protocol_AEID",
+              "image": false,
+              "freetext": false,
+              "paragraph": false,
+              "delimited": false,
+              "imagetype": "",
+              "dstemplatestring": "Protocol: GCT3013-05\n\nSite ID: BEO10\n\nSubject ID: 1156\n\nAEID: 1 - AE TUMOR LYSIS SYNDROME - 11 NOV 2021\n"
+            },
+            "matrixcoordinates": [
+              ""
+            ],
+            "tablereferenceid": null,
+            "annotationcontenttype": "normal-fullpage",
+            "annotationcontentlang": "English",
+            "annotationstatus": "0",
+            "xmlreferenceid": null,
+            "csvreferenceid": null,
+            "nestedtablereferenceid": null,
+            "rowreferenceid": null,
+            "cellreferenceid": null,
+            "rowreferencelength": "1",
+            "cellreferencelength": "1",
+            "annotid": "10002",
+            "annotcoordinates": "211 , 1441 , 1753 , 443",
+            "annotationmatrix": false,
+            "startpage": 0,
+            "afterreferencecoordinates": "",
+            "beforereferencecoordinates": "",
+            "afterreferencestring": "",
+            "beforereferencestring": "",
+            "isrepeatableannot": false,
+            "annotationtype": "simple"
+          },
+          "_id": "62a97b6f1797c52780569593"
+        }
+      ],
+      "_id": "62a977061797c5278056946f",
+      "groupid": 1
+    }
+  ],
+  "docxmetadata": null,
+  "formsummary": {
+    "_id": "62a977061797c52780569478",
+    "pages": [
+      {
+        "pageheaderidentifier": [
+          ""
+        ],
+        "pagefooteridentifier": [],
+        "sectionheaders": [],
+        "_id": "62a977061797c52780569479",
+        "pageno": "0",
+        "pagetype": "simple",
+        "repeatablepage": "false",
+        "pageurl": "http://18.213.8.225:4466/5e4af9a2-ec71-11ec-a9c9-12414bf81c8f_0.png"
+      }
+    ],
+    "continuationsheets": "",
+    "containscoversheets": "false",
+    "continuationpageheader": "",
+    "continuationpagefooter": ""
+  },
+  "outputformat": "PVI_5.1",
+  "createdon": "2022-06-15T06:07:02.546Z"
+}

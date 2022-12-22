@@ -1,0 +1,232 @@
+{
+    "createdby": "Admin",
+    "deleteflag": 0,
+    "formstatus": "0",
+    "_id": "6140ab73a35294537815a889",
+    "formid": "5bfec6cc-1564-11ec-b839-12414bf81c8f",
+    "formname": "cioms as scanned -  test",
+    "formdescription": "cioms as scanned - test",
+    "formtype": "imagepdf",
+    "templateurls": "{\"formID\": \"5bfec6cc-1564-11ec-b839-12414bf81c8f\", \"formtype\": \"imagepdf\", \"url_pdf\": \"http://18.213.8.225:4466/5bfec6cc-1564-11ec-b839-12414bf81c8f.pdf\", \"url_docx\": \"\", \"metadata_json\": null, \"url_png\": [\"http://18.213.8.225:4466/5bfec6cc-1564-11ec-b839-12414bf81c8f_0.png\", \"http://18.213.8.225:4466/5bfec6cc-1564-11ec-b839-12414bf81c8f_1.png\", \"http://18.213.8.225:4466/5bfec6cc-1564-11ec-b839-12414bf81c8f_2.png\", \"http://18.213.8.225:4466/5bfec6cc-1564-11ec-b839-12414bf81c8f_3.png\"]}",
+    "configdefinition": [
+        {
+            "groupoperations": [
+                {
+                    "_id": "61309212c51d184b2a9d3cc8",
+                    "transformcase": "none"
+                },
+                {
+                    "_id": "61309212c51d184b2a9d3cc9",
+                    "transformdateformat": "none"
+                },
+                {
+                    "_id": "61309212c51d184b2a9d3cca",
+                    "transformnumberformat": "none"
+                },
+                {
+                    "_id": "61309212c51d184b2a9d3ccb",
+                    "concatwithdelimiter": ""
+                },
+                {
+                    "_id": "61309212c51d184b2a9d3ccc",
+                    "padafterconcat": "none"
+                },
+                {
+                    "_id": "61309212c51d184b2a9d3ccd",
+                    "padbeforeconcat": "none"
+                },
+                {
+                    "_id": "61309212c51d184b2a9d3cce",
+                    "truncateleadingdelimiter": "false"
+                },
+                {
+                    "_id": "61309212c51d184b2a9d3ccf",
+                    "truncatelaggingdelimiter": "false"
+                }
+            ],
+            "annotations": [               
+                {
+                    "annotation": {
+                        "datastring": {
+                            "continued": {
+                                "continuedelsewhere": false,
+                                "continuationsymbol": "",
+                                "continuationheader": "",
+                                "continuationfooter": "",
+                                "continuationtype": "",
+                                "appearsonlyoncontinuationsheet": false
+                            },
+                            "setofrows": {
+                                "rowtransformlength": "1",
+                                "celltransformlength": "1",
+                                "chref": [],
+                                "virtualtable": true,
+                                "borderedtable": false,
+                                "rowseparator": "Regex",
+                                "columnseparator": "position",
+                                "rowdelimiter": "Unknown|\\d{2}-\\w{3}-\\d{4}|Ongoing",
+                                "columndelimiter": "",
+                                "tableheader": false,
+                                "repeatingtableheader": true,
+                                "columnnames": "From/To Dates||Type of History / Notes||Description",
+                                "tableheaderseparator": "",
+                                "tablestartstring": "HISTORY continued",
+                                "tableendstring": "Reporters continued",
+                                "startrow": "",
+                                "endrow": "",
+                                "columntypes": "text||text||text",
+                                "transformtable": false,
+                                "repeatingsectionheader": false,
+                                "spacebetweenrows": "",
+                                "tableheaderregionsize": "408 , 4166 , 361 , 185",
+                                "nestedtablemap": ""
+                            },
+                            "keyvaluepairs": {
+                                "formkeylist": [
+                                    ""
+                                ],
+                                "simplekeymap": [],
+                                "keymapid": "",
+                                "extractionstartposition": "",
+                                "extractionendposition": "",
+                                "keystartposition": "",
+                                "valueendposition": "",
+                                "extractionstartstring": "",
+                                "extractionendstring": "",
+                                "keyvalueseperator": "",
+                                "isrepeatable": false,
+                                "useaddressmacro": false,
+                                "recordseperator": "",
+                                "keyvaluepair": false,
+                                "matchesvaluemap": false
+                            },
+                            "datecleansing": {
+                                "removeleadingwhitespace": true,
+                                "removelaggingwhitespace": true,
+                                "removeleadingstringmatching": "",
+                                "removelaggingstringmatching": ""
+                            },
+                            "stringdelimiters": [
+                                ""
+                            ],
+                            "elements": [],
+                            "name": "Other Relevant History continued",
+                            "image": false,
+                            "freetext": false,
+                            "paragraph": false,
+                            "delimited": false,
+                            "imagetype": "",
+                            "dstemplatestring": "temp, need to remove later"
+                        },
+                        "matrixcoordinates": [
+                            "348 , 4240 , 960 , 301",
+                            "1308 , 4231 , 677 , 259",
+                            "1985 , 4231 , 1832 , 371"
+                        ],
+                        "tablereferenceid": null,
+                        "annotationcontenttype": "normal-fullpage",
+                        "annotationcontentlang": "English",
+                        "annotationstatus": "0",
+                        "xmlreferenceid": null,
+                        "csvreferenceid": null,
+                        "nestedtablereferenceid": null,
+                        "rowreferenceid": null,
+                        "cellreferenceid": null,
+                        "rowreferencelength": "1",
+                        "cellreferencelength": "1",
+                        "annotid": "10006",
+                        "annotcoordinates": "371 , 4259 , 3461 , 301",
+                        "annotationmatrix": false,
+                        "startpage": 2,
+                        "afterreferencecoordinates": "",
+                        "beforereferencecoordinates": "",
+                        "afterreferencestring": "",
+                        "beforereferencestring": "",
+                        "isrepeatableannot": false,
+                        "annotationtype": "simple"
+                    },
+                    "_id": "6144421fa35294537815ac99"
+                }
+            ],
+            "_id": "61309212c51d184b2a9d3cc7",
+            "groupid": 1
+        }
+    ],
+    "docxmetadata": null,
+    "formsummary": {
+        "_id": "6142eb8ea35294537815ab6d",
+        "pages": [
+            {
+                "pageheaderidentifier": [
+                    "ADDITIONAL INFORMATION"
+                ],
+                "pagefooteridentifier": [
+                    "23-Apr-2019 07:39"
+                ],
+                "sectionheaders": [
+                    ""
+                ],
+                "_id": "6142eb8ea35294537815ab69",
+                "pageno": "0",
+                "pagetype": "fixed form",
+                "repeatablepage": "false",
+                "pageurl": "http://18.213.8.225:4466/5bfec6cc-1564-11ec-b839-12414bf81c8f_0.png"
+            },
+            {
+                "pageheaderidentifier": [
+                    ""
+                ],
+                "pagefooteridentifier": [
+                    ""
+                ],
+                "sectionheaders": [
+                    ""
+                ],
+                "_id": "6142eb8ea35294537815ab6a",
+                "pageno": "1",
+                "pagetype": "simple",
+                "repeatablepage": "false",
+                "pageurl": "http://18.213.8.225:4466/5bfec6cc-1564-11ec-b839-12414bf81c8f_1.png"
+            },
+            {
+                "pageheaderidentifier": [
+                    ""
+                ],
+                "pagefooteridentifier": [
+                    ""
+                ],
+                "sectionheaders": [
+                    ""
+                ],
+                "_id": "6142eb8ea35294537815ab6b",
+                "pageno": "2",
+                "pagetype": "simple",
+                "repeatablepage": "false",
+                "pageurl": "http://18.213.8.225:4466/5bfec6cc-1564-11ec-b839-12414bf81c8f_2.png"
+            },
+            {
+                "pageheaderidentifier": [
+                    ""
+                ],
+                "pagefooteridentifier": [
+                    ""
+                ],
+                "sectionheaders": [
+                    ""
+                ],
+                "_id": "6142eb8ea35294537815ab6c",
+                "pageno": "3",
+                "pagetype": "simple",
+                "repeatablepage": "false",
+                "pageurl": "http://18.213.8.225:4466/5bfec6cc-1564-11ec-b839-12414bf81c8f_3.png"
+            }
+        ],
+        "continuationsheets": "",
+        "containscoversheets": "false",
+        "continuationpageheader": "",
+        "continuationpagefooter": "",
+        "garbageremovalregex": null
+    },
+    "outputformat": "PVI_4.9",
+    "createdon": "2021-09-14T14:02:27.159Z"
+}

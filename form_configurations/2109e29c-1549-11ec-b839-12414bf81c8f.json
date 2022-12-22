@@ -1,0 +1,802 @@
+{
+    "createdby": "Admin",
+    "deleteflag": 0,
+    "formstatus": "0",
+    "_id": "61407dbda35294537815a7e6",
+    "formid": "2109e29c-1549-11ec-b839-12414bf81c8f",
+    "formname": "medwatch as scanned",
+    "formdescription": "medwatch as scanned",
+    "formtype": "imagepdf",
+    "templateurls": "{\"formID\": \"2109e29c-1549-11ec-b839-12414bf81c8f\", \"formtype\": \"imagepdf\", \"url_pdf\": \"http://18.213.8.225:4466/2109e29c-1549-11ec-b839-12414bf81c8f.pdf\", \"url_docx\": \"\", \"metadata_json\": null, \"url_png\": [\"http://18.213.8.225:4466/2109e29c-1549-11ec-b839-12414bf81c8f_0.png\", \"http://18.213.8.225:4466/2109e29c-1549-11ec-b839-12414bf81c8f_1.png\"]}",
+    "configdefinition": [
+        {
+            "groupoperations": [
+                {
+                    "_id": "61407dbda35294537815a7e8",
+                    "transformcase": "none"
+                },
+                {
+                    "_id": "61407dbda35294537815a7e9",
+                    "transformdateformat": "none"
+                },
+                {
+                    "_id": "61407dbda35294537815a7ea",
+                    "transformnumberformat": "none"
+                },
+                {
+                    "_id": "61407dbda35294537815a7eb",
+                    "concatwithdelimiter": ""
+                },
+                {
+                    "_id": "61407dbda35294537815a7ec",
+                    "padafterconcat": "none"
+                },
+                {
+                    "_id": "61407dbda35294537815a7ed",
+                    "padbeforeconcat": "none"
+                },
+                {
+                    "_id": "61407dbda35294537815a7ee",
+                    "truncateleadingdelimiter": "false"
+                },
+                {
+                    "_id": "61407dbda35294537815a7ef",
+                    "truncatelaggingdelimiter": "false"
+                }
+            ],
+            "annotations": [
+                {
+                    "annotation": {
+                        "datastring": {
+                            "continued": {
+                                "continuedelsewhere": false,
+                                "continuationsymbol": "",
+                                "continuationheader": "",
+                                "continuationfooter": "",
+                                "continuationtype": "",
+                                "appearsonlyoncontinuationsheet": false
+                            },
+                            "setofrows": {
+                                "rowtransformlength": "1",
+                                "celltransformlength": "1",
+                                "chref": [],
+                                "virtualtable": true,
+                                "borderedtable": false,
+                                "rowseparator": "Regex",
+                                "columnseparator": "Regex",
+                                "rowdelimiter": "\\n",
+                                "columndelimiter": "#\\d+\\s||\\s\\d{2}/\\d{2}/\\d{4}\\s||\\s\\w*\\s[(]\\w.*",
+                                "tableheader": false,
+                                "repeatingtableheader": false,
+                                "columnnames": "",
+                                "tableheaderseparator": "",
+                                "tablestartstring": "Date of Event",
+                                "tableendstring": "Other Relevant",
+                                "startrow": "",
+                                "endrow": "",
+                                "columntypes": "",
+                                "transformtable": false,
+                                "repeatingsectionheader": false,
+                                "spacebetweenrows": "",
+                                "tableheaderregionsize": "236 , 1865 , 250 , 1749",
+                                "nestedtablemap": ""
+                            },
+                            "keyvaluepairs": {
+                                "formkeylist": [
+                                    ""
+                                ],
+                                "simplekeymap": [],
+                                "keymapid": "",
+                                "extractionstartposition": "",
+                                "extractionendposition": "",
+                                "keystartposition": "",
+                                "valueendposition": "",
+                                "extractionstartstring": "",
+                                "extractionendstring": "",
+                                "keyvalueseperator": "",
+                                "isrepeatable": false,
+                                "useaddressmacro": false,
+                                "recordseperator": "",
+                                "keyvaluepair": false,
+                                "matchesvaluemap": false
+                            },
+                            "datecleansing": {
+                                "removeleadingwhitespace": false,
+                                "removelaggingwhitespace": false,
+                                "removeleadingstringmatching": "",
+                                "removelaggingstringmatching": ""
+                            },
+                            "stringdelimiters": [
+                                ""
+                            ],
+                            "elements": [],
+                            "name": "regex table",
+                            "image": false,
+                            "freetext": false,
+                            "paragraph": false,
+                            "delimited": false,
+                            "imagetype": "",
+                            "dstemplatestring": "temp, need to remove later"
+                        },
+                        "matrixcoordinates": [
+                            "167 , 3623 , 1860 , 533"
+                        ],
+                        "tablereferenceid": null,
+                        "annotationcontenttype": "normal-fullpage",
+                        "annotationcontentlang": "English",
+                        "annotationstatus": "0",
+                        "xmlreferenceid": null,
+                        "csvreferenceid": null,
+                        "nestedtablereferenceid": null,
+                        "rowreferenceid": null,
+                        "cellreferenceid": null,
+                        "rowreferencelength": "1",
+                        "cellreferencelength": "1",
+                        "annotid": "10001",
+                        "annotcoordinates": "153 , 3609 , 1902 , 598",
+                        "annotationmatrix": false,
+                        "startpage": 0,
+                        "afterreferencecoordinates": "",
+                        "beforereferencecoordinates": "",
+                        "afterreferencestring": "",
+                        "beforereferencestring": "",
+                        "isrepeatableannot": false,
+                        "annotationtype": "simple"
+                    },
+                    "_id": "61409472a35294537815a86b"
+                },
+                {
+                    "annotation": {
+                        "datastring": {
+                            "continued": {
+                                "continuedelsewhere": false,
+                                "continuationsymbol": "",
+                                "continuationheader": "",
+                                "continuationfooter": "",
+                                "continuationtype": "",
+                                "appearsonlyoncontinuationsheet": false
+                            },
+                            "setofrows": {
+                                "rowtransformlength": "1",
+                                "celltransformlength": "1",
+                                "chref": [],
+                                "virtualtable": true,
+                                "borderedtable": false,
+                                "rowseparator": "",
+                                "columnseparator": "position",
+                                "rowdelimiter": "",
+                                "columndelimiter": "",
+                                "tableheader": false,
+                                "repeatingtableheader": false,
+                                "columnnames": "",
+                                "tableheaderseparator": "",
+                                "tablestartstring": "LABORATORY DATA",
+                                "tableendstring": "DIAGNOSIS FOR USE",
+                                "startrow": "",
+                                "endrow": "",
+                                "columntypes": "text||text||text||text||text",
+                                "transformtable": false,
+                                "repeatingsectionheader": false,
+                                "spacebetweenrows": "",
+                                "tableheaderregionsize": "399 , 779 , 171 , 92",
+                                "nestedtablemap": ""
+                            },
+                            "keyvaluepairs": {
+                                "formkeylist": [
+                                    ""
+                                ],
+                                "simplekeymap": [],
+                                "keymapid": "",
+                                "extractionstartposition": "",
+                                "extractionendposition": "",
+                                "keystartposition": "",
+                                "valueendposition": "",
+                                "extractionstartstring": "",
+                                "extractionendstring": "",
+                                "keyvalueseperator": "",
+                                "isrepeatable": false,
+                                "useaddressmacro": false,
+                                "recordseperator": "",
+                                "keyvaluepair": false,
+                                "matchesvaluemap": false
+                            },
+                            "datecleansing": {
+                                "removeleadingwhitespace": false,
+                                "removelaggingwhitespace": false,
+                                "removeleadingstringmatching": "",
+                                "removelaggingstringmatching": ""
+                            },
+                            "stringdelimiters": [
+                                ""
+                            ],
+                            "elements": [],
+                            "name": "LABORATORY DATA",
+                            "image": false,
+                            "freetext": false,
+                            "paragraph": false,
+                            "delimited": false,
+                            "imagetype": "",
+                            "dstemplatestring": "temp, need to remove later"
+                        },
+                        "matrixcoordinates": [
+                            "255 , 807 , 97 , 102",
+                            "371 , 807 , 510 , 129",
+                            "1030 , 798 , 1173 , 97",
+                            "2213 , 793 , 663 , 148",
+                            "2890 , 793 , 301 , 334"
+                        ],
+                        "tablereferenceid": null,
+                        "annotationcontenttype": "normal-fullpage",
+                        "annotationcontentlang": "English",
+                        "annotationstatus": "0",
+                        "xmlreferenceid": null,
+                        "csvreferenceid": null,
+                        "nestedtablereferenceid": null,
+                        "rowreferenceid": null,
+                        "cellreferenceid": null,
+                        "rowreferencelength": "1",
+                        "cellreferencelength": "1",
+                        "annotid": "10002",
+                        "annotcoordinates": "245 , 723 , 3280 , 417",
+                        "annotationmatrix": false,
+                        "startpage": 1,
+                        "afterreferencecoordinates": "",
+                        "beforereferencecoordinates": "",
+                        "afterreferencestring": "",
+                        "beforereferencestring": "",
+                        "isrepeatableannot": false,
+                        "annotationtype": "simple"
+                    },
+                    "_id": "61409acaa35294537815a871"
+                },
+                {
+                    "annotation": {
+                        "datastring": {
+                            "continued": {
+                                "continuedelsewhere": false,
+                                "continuationsymbol": "",
+                                "continuationheader": "",
+                                "continuationfooter": "",
+                                "continuationtype": "",
+                                "appearsonlyoncontinuationsheet": false
+                            },
+                            "setofrows": {
+                                "rowtransformlength": "1",
+                                "celltransformlength": "1",
+                                "chref": [],
+                                "virtualtable": true,
+                                "borderedtable": false,
+                                "rowseparator": "Regex",
+                                "columnseparator": "Regex",
+                                "rowdelimiter": "\\n",
+                                "columndelimiter": "\\d+[)]||\\s\\w.+",
+                                "tableheader": false,
+                                "repeatingtableheader": false,
+                                "columnnames": "",
+                                "tableheaderseparator": "",
+                                "tablestartstring": "MEDICAL PRODUCTS (Continued)",
+                                "tableendstring": "",
+                                "startrow": "",
+                                "endrow": "",
+                                "columntypes": "",
+                                "transformtable": false,
+                                "repeatingsectionheader": false,
+                                "spacebetweenrows": "",
+                                "tableheaderregionsize": "399 , 779 , 171 , 92",
+                                "nestedtablemap": ""
+                            },
+                            "keyvaluepairs": {
+                                "formkeylist": [
+                                    ""
+                                ],
+                                "simplekeymap": [],
+                                "keymapid": "",
+                                "extractionstartposition": "",
+                                "extractionendposition": "",
+                                "keystartposition": "",
+                                "valueendposition": "",
+                                "extractionstartstring": "",
+                                "extractionendstring": "",
+                                "keyvalueseperator": "",
+                                "isrepeatable": false,
+                                "useaddressmacro": false,
+                                "recordseperator": "",
+                                "keyvaluepair": false,
+                                "matchesvaluemap": false
+                            },
+                            "datecleansing": {
+                                "removeleadingwhitespace": false,
+                                "removelaggingwhitespace": false,
+                                "removeleadingstringmatching": "",
+                                "removelaggingstringmatching": ""
+                            },
+                            "stringdelimiters": [
+                                ""
+                            ],
+                            "elements": [],
+                            "name": "CONCOM last page",
+                            "image": false,
+                            "freetext": false,
+                            "paragraph": false,
+                            "delimited": false,
+                            "imagetype": "",
+                            "dstemplatestring": "temp, need to remove later"
+                        },
+                        "matrixcoordinates": [
+                            "185 , 2440 , 3874 , 352"
+                        ],
+                        "tablereferenceid": null,
+                        "annotationcontenttype": "normal-fullpage",
+                        "annotationcontentlang": "English",
+                        "annotationstatus": "0",
+                        "xmlreferenceid": null,
+                        "csvreferenceid": null,
+                        "nestedtablereferenceid": null,
+                        "rowreferenceid": null,
+                        "cellreferenceid": null,
+                        "rowreferencelength": "1",
+                        "cellreferencelength": "1",
+                        "annotid": "10003",
+                        "annotcoordinates": "236 , 2417 , 3438 , 849",
+                        "annotationmatrix": false,
+                        "startpage": 1,
+                        "afterreferencecoordinates": "",
+                        "beforereferencecoordinates": "",
+                        "afterreferencestring": "",
+                        "beforereferencestring": "",
+                        "isrepeatableannot": false,
+                        "annotationtype": "simple"
+                    },
+                    "_id": "61409654a35294537815a86e"
+                },
+                {
+                    "annotation": {
+                        "datastring": {
+                            "continued": {
+                                "continuedelsewhere": false,
+                                "continuationsymbol": "",
+                                "continuationheader": "",
+                                "continuationfooter": "",
+                                "continuationtype": "",
+                                "appearsonlyoncontinuationsheet": false
+                            },
+                            "setofrows": {
+                                "rowtransformlength": "1",
+                                "celltransformlength": "1",
+                                "chref": [],
+                                "virtualtable": false,
+                                "borderedtable": false,
+                                "rowseparator": "",
+                                "columnseparator": "",
+                                "rowdelimiter": "",
+                                "columndelimiter": "",
+                                "tableheader": false,
+                                "repeatingtableheader": false,
+                                "columnnames": "",
+                                "tableheaderseparator": "",
+                                "tablestartstring": "",
+                                "tableendstring": "",
+                                "startrow": "",
+                                "endrow": "",
+                                "columntypes": "",
+                                "transformtable": false,
+                                "repeatingsectionheader": false,
+                                "spacebetweenrows": "",
+                                "tableheaderregionsize": "",
+                                "nestedtablemap": ""
+                            },
+                            "keyvaluepairs": {
+                                "formkeylist": [
+                                    ""
+                                ],
+                                "simplekeymap": [],
+                                "keymapid": "",
+                                "extractionstartposition": "",
+                                "extractionendposition": "",
+                                "keystartposition": "",
+                                "valueendposition": "",
+                                "extractionstartstring": "",
+                                "extractionendstring": "",
+                                "keyvalueseperator": "",
+                                "isrepeatable": false,
+                                "useaddressmacro": false,
+                                "recordseperator": "",
+                                "keyvaluepair": false,
+                                "matchesvaluemap": false
+                            },
+                            "datecleansing": {
+                                "removeleadingwhitespace": false,
+                                "removelaggingwhitespace": false,
+                                "removeleadingstringmatching": "",
+                                "removelaggingstringmatching": ""
+                            },
+                            "stringdelimiters": [
+                                ""
+                            ],
+                            "elements": [],
+                            "name": "female",
+                            "image": true,
+                            "freetext": false,
+                            "paragraph": false,
+                            "delimited": false,
+                            "imagetype": "rectangle_checkbox",
+                            "dstemplatestring": "temp, need to remove later"
+                        },
+                        "matrixcoordinates": [
+                            ""
+                        ],
+                        "tablereferenceid": null,
+                        "annotationcontenttype": "normal-fullpage",
+                        "annotationcontentlang": "English",
+                        "annotationstatus": "0",
+                        "xmlreferenceid": null,
+                        "csvreferenceid": null,
+                        "nestedtablereferenceid": null,
+                        "rowreferenceid": null,
+                        "cellreferenceid": null,
+                        "rowreferencelength": "1",
+                        "cellreferencelength": "1",
+                        "annotid": "10004",
+                        "annotcoordinates": "1429 , 779 , 78 , 83",
+                        "annotationmatrix": false,
+                        "startpage": 0,
+                        "afterreferencecoordinates": "617 , 677 , 269 , 55",
+                        "beforereferencecoordinates": "607 , 890 , 213 , 74",
+                        "afterreferencestring": "Age at Time",
+                        "beforereferencestring": "of Birth:",
+                        "isrepeatableannot": false,
+                        "annotationtype": "simple"
+                    },
+                    "_id": "61480d74a35294537815ad0c"
+                },
+                {
+                    "annotation": {
+                        "datastring": {
+                            "continued": {
+                                "continuedelsewhere": false,
+                                "continuationsymbol": "",
+                                "continuationheader": "",
+                                "continuationfooter": "",
+                                "continuationtype": "",
+                                "appearsonlyoncontinuationsheet": false
+                            },
+                            "setofrows": {
+                                "rowtransformlength": "1",
+                                "celltransformlength": "1",
+                                "chref": [],
+                                "virtualtable": false,
+                                "borderedtable": false,
+                                "rowseparator": "",
+                                "columnseparator": "",
+                                "rowdelimiter": "",
+                                "columndelimiter": "",
+                                "tableheader": false,
+                                "repeatingtableheader": false,
+                                "columnnames": "",
+                                "tableheaderseparator": "",
+                                "tablestartstring": "",
+                                "tableendstring": "",
+                                "startrow": "",
+                                "endrow": "",
+                                "columntypes": "",
+                                "transformtable": false,
+                                "repeatingsectionheader": false,
+                                "spacebetweenrows": "",
+                                "tableheaderregionsize": "",
+                                "nestedtablemap": ""
+                            },
+                            "keyvaluepairs": {
+                                "formkeylist": [
+                                    ""
+                                ],
+                                "simplekeymap": [],
+                                "keymapid": "",
+                                "extractionstartposition": "",
+                                "extractionendposition": "",
+                                "keystartposition": "",
+                                "valueendposition": "",
+                                "extractionstartstring": "",
+                                "extractionendstring": "",
+                                "keyvalueseperator": "",
+                                "isrepeatable": false,
+                                "useaddressmacro": false,
+                                "recordseperator": "",
+                                "keyvaluepair": false,
+                                "matchesvaluemap": false
+                            },
+                            "datecleansing": {
+                                "removeleadingwhitespace": false,
+                                "removelaggingwhitespace": false,
+                                "removeleadingstringmatching": "",
+                                "removelaggingstringmatching": ""
+                            },
+                            "stringdelimiters": [
+                                ""
+                            ],
+                            "elements": [],
+                            "name": "Male",
+                            "image": true,
+                            "freetext": false,
+                            "paragraph": false,
+                            "delimited": false,
+                            "imagetype": "rectangle_checkbox",
+                            "dstemplatestring": "temp, need to remove later"
+                        },
+                        "matrixcoordinates": [
+                            ""
+                        ],
+                        "tablereferenceid": null,
+                        "annotationcontenttype": "normal-fullpage",
+                        "annotationcontentlang": "English",
+                        "annotationstatus": "0",
+                        "xmlreferenceid": null,
+                        "csvreferenceid": null,
+                        "nestedtablereferenceid": null,
+                        "rowreferenceid": null,
+                        "cellreferenceid": null,
+                        "rowreferencelength": "1",
+                        "cellreferencelength": "1",
+                        "annotid": "10005",
+                        "annotcoordinates": "1424 , 876 , 92 , 92",
+                        "annotationmatrix": false,
+                        "startpage": 0,
+                        "afterreferencecoordinates": "626 , 668 , 269 , 69",
+                        "beforereferencecoordinates": "798 , 1048 , 580 , 60",
+                        "afterreferencestring": "Age at Time",
+                        "beforereferencestring": "PRODUCT PROBLEM",
+                        "isrepeatableannot": false,
+                        "annotationtype": "simple"
+                    },
+                    "_id": "61480db3a35294537815ad0d"
+                },
+                {
+                    "annotation": {
+                        "datastring": {
+                            "continued": {
+                                "continuedelsewhere": false,
+                                "continuationsymbol": "",
+                                "continuationheader": "",
+                                "continuationfooter": "",
+                                "continuationtype": "",
+                                "appearsonlyoncontinuationsheet": false
+                            },
+                            "setofrows": {
+                                "rowtransformlength": "1",
+                                "celltransformlength": "1",
+                                "chref": [],
+                                "virtualtable": false,
+                                "borderedtable": false,
+                                "rowseparator": "",
+                                "columnseparator": "",
+                                "rowdelimiter": "",
+                                "columndelimiter": "",
+                                "tableheader": false,
+                                "repeatingtableheader": false,
+                                "columnnames": "",
+                                "tableheaderseparator": "",
+                                "tablestartstring": "",
+                                "tableendstring": "",
+                                "startrow": "",
+                                "endrow": "",
+                                "columntypes": "",
+                                "transformtable": false,
+                                "repeatingsectionheader": false,
+                                "spacebetweenrows": "",
+                                "tableheaderregionsize": "",
+                                "nestedtablemap": ""
+                            },
+                            "keyvaluepairs": {
+                                "formkeylist": [
+                                    ""
+                                ],
+                                "simplekeymap": [],
+                                "keymapid": "",
+                                "extractionstartposition": "",
+                                "extractionendposition": "",
+                                "keystartposition": "",
+                                "valueendposition": "",
+                                "extractionstartstring": "",
+                                "extractionendstring": "",
+                                "keyvalueseperator": "",
+                                "isrepeatable": false,
+                                "useaddressmacro": false,
+                                "recordseperator": "",
+                                "keyvaluepair": false,
+                                "matchesvaluemap": false
+                            },
+                            "datecleansing": {
+                                "removeleadingwhitespace": false,
+                                "removelaggingwhitespace": false,
+                                "removeleadingstringmatching": "",
+                                "removelaggingstringmatching": ""
+                            },
+                            "stringdelimiters": [
+                                ""
+                            ],
+                            "elements": [],
+                            "name": "DOB",
+                            "image": false,
+                            "freetext": true,
+                            "paragraph": false,
+                            "delimited": false,
+                            "imagetype": "",
+                            "dstemplatestring": "temp, need to remove later"
+                        },
+                        "matrixcoordinates": [
+                            ""
+                        ],
+                        "tablereferenceid": null,
+                        "annotationcontenttype": "normal-fullpage",
+                        "annotationcontentlang": "English",
+                        "annotationstatus": "0",
+                        "xmlreferenceid": null,
+                        "csvreferenceid": null,
+                        "nestedtablereferenceid": null,
+                        "rowreferenceid": null,
+                        "cellreferenceid": null,
+                        "rowreferencelength": "1",
+                        "cellreferencelength": "1",
+                        "annotid": "10006",
+                        "annotcoordinates": "835 , 867 , 538 , 125",
+                        "annotationmatrix": false,
+                        "startpage": 0,
+                        "afterreferencecoordinates": "626 , 668 , 153 , 78",
+                        "beforereferencecoordinates": "491 , 1034 , 598 , 83",
+                        "afterreferencestring": "Age at",
+                        "beforereferencestring": "EVENT OR PRODUCT",
+                        "isrepeatableannot": false,
+                        "annotationtype": "simple"
+                    },
+                    "_id": "6148136fa35294537815ad11"
+                },
+                {
+                    "annotation": {
+                        "datastring": {
+                            "continued": {
+                                "continuedelsewhere": false,
+                                "continuationsymbol": "",
+                                "continuationheader": "",
+                                "continuationfooter": "",
+                                "continuationtype": "",
+                                "appearsonlyoncontinuationsheet": false
+                            },
+                            "setofrows": {
+                                "rowtransformlength": "1",
+                                "celltransformlength": "1",
+                                "chref": [],
+                                "virtualtable": false,
+                                "borderedtable": false,
+                                "rowseparator": "",
+                                "columnseparator": "",
+                                "rowdelimiter": "",
+                                "columndelimiter": "",
+                                "tableheader": false,
+                                "repeatingtableheader": false,
+                                "columnnames": "",
+                                "tableheaderseparator": "",
+                                "tablestartstring": "",
+                                "tableendstring": "",
+                                "startrow": "",
+                                "endrow": "",
+                                "columntypes": "",
+                                "transformtable": false,
+                                "repeatingsectionheader": false,
+                                "spacebetweenrows": "",
+                                "tableheaderregionsize": "",
+                                "nestedtablemap": ""
+                            },
+                            "keyvaluepairs": {
+                                "formkeylist": [
+                                    ""
+                                ],
+                                "simplekeymap": [],
+                                "keymapid": "",
+                                "extractionstartposition": "",
+                                "extractionendposition": "",
+                                "keystartposition": "",
+                                "valueendposition": "",
+                                "extractionstartstring": "",
+                                "extractionendstring": "",
+                                "keyvalueseperator": "",
+                                "isrepeatable": false,
+                                "useaddressmacro": false,
+                                "recordseperator": "",
+                                "keyvaluepair": false,
+                                "matchesvaluemap": false
+                            },
+                            "datecleansing": {
+                                "removeleadingwhitespace": false,
+                                "removelaggingwhitespace": false,
+                                "removeleadingstringmatching": "",
+                                "removelaggingstringmatching": ""
+                            },
+                            "stringdelimiters": [
+                                ""
+                            ],
+                            "elements": [],
+                            "name": "Report Source Foreign",
+                            "image": true,
+                            "freetext": false,
+                            "paragraph": false,
+                            "delimited": false,
+                            "imagetype": "rectangle_checkbox",
+                            "dstemplatestring": "temp, need to remove later"
+                        },
+                        "matrixcoordinates": [
+                            ""
+                        ],
+                        "tablereferenceid": null,
+                        "annotationcontenttype": "normal-fullpage",
+                        "annotationcontentlang": "English",
+                        "annotationstatus": "0",
+                        "xmlreferenceid": null,
+                        "csvreferenceid": null,
+                        "nestedtablereferenceid": null,
+                        "rowreferenceid": null,
+                        "cellreferenceid": null,
+                        "rowreferencelength": "1",
+                        "cellreferencelength": "1",
+                        "annotid": "10007",
+                        "annotcoordinates": "3595 , 2825 , 83 , 88",
+                        "annotationmatrix": false,
+                        "startpage": 0,
+                        "afterreferencecoordinates": "2241 , 2384 , 644 , 83",
+                        "beforereferencecoordinates": "2951 , 4138 , 329 , 69",
+                        "afterreferencestring": "ALL MANUFACTURERS",
+                        "beforereferencestring": "Adverse Event",
+                        "isrepeatableannot": false,
+                        "annotationtype": "simple"
+                    },
+                    "_id": "61481926a35294537815ad15"
+                }
+            ],
+            "_id": "61407dbda35294537815a7e7",
+            "groupid": 1
+        }
+    ],
+    "docxmetadata": null,
+    "formsummary": {
+        "_id": "614090f9a35294537815a857",
+        "pages": [
+            {
+                "pageheaderidentifier": [
+                    ""
+                ],
+                "pagefooteridentifier": [
+                    ""
+                ],
+                "sectionheaders": [
+                    ""
+                ],
+                "_id": "614090f9a35294537815a855",
+                "pageno": "0",
+                "pagetype": "fixed form",
+                "repeatablepage": "false",
+                "pageurl": "http://18.213.8.225:4466/2109e29c-1549-11ec-b839-12414bf81c8f_0.png"
+            },
+            {
+                "pageheaderidentifier": [
+                    ""
+                ],
+                "pagefooteridentifier": [
+                    ""
+                ],
+                "sectionheaders": [
+                    ""
+                ],
+                "_id": "614090f9a35294537815a856",
+                "pageno": "1",
+                "pagetype": "fixed form",
+                "repeatablepage": "false",
+                "pageurl": "http://18.213.8.225:4466/2109e29c-1549-11ec-b839-12414bf81c8f_1.png"
+            }
+        ],
+        "continuationsheets": "",
+        "containscoversheets": "false",
+        "continuationpageheader": "",
+        "continuationpagefooter": "",
+        "garbageremovalregex": null
+    },
+    "outputformat": "PVI_4.9",
+    "createdon": "2021-09-14T10:47:25.793Z"
+}

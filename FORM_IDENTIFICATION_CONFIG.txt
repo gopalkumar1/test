@@ -1,0 +1,7 @@
+content_type|identification_strings|module_name
+"MedInfoSys"|"Enquiry Number","Date Of Creation"|"generic"
+"Novartis_cioms"|"PATIENT INITIALS","CIOMS FORM","SUSPECT ADVERSE REACTION REPORT","REMARKS"|"generic"
+"Nordic_cioms"|"CIOMS FORM","SUSPECT ADVERSE REACTION REPORT","REMARKS"|"generic"
+"Adis"|"Adis Narrative"|"generic"
+
+

@@ -1,0 +1,665 @@
+{
+    "createdby": "Admin",
+    "deleteflag": 0,
+    "formstatus": "0",
+    "_id": "60e6d5e8a9a1cd68e4bbc416",
+    "formid": "a182d77c-dfd8-11eb-9c7d-12414bf81c8f",
+    "formname": "R2810-ONC-1676_GEM_Initial",
+    "formdescription": "by amit",
+    "formtype": "multithreaded_digitalpdf",
+    "templateurls": "{\"formID\": \"a182d77c-dfd8-11eb-9c7d-12414bf81c8f\", \"formtype\": \"multithreaded_digitalpdf\", \"url_pdf\": \"http://18.213.8.225:4466/a182d77c-dfd8-11eb-9c7d-12414bf81c8f.pdf\", \"url_docx\": \"\", \"metadata_json\": null, \"url_png\": [\"http://18.213.8.225:4466/a182d77c-dfd8-11eb-9c7d-12414bf81c8f_0.png\", \"http://18.213.8.225:4466/a182d77c-dfd8-11eb-9c7d-12414bf81c8f_1.png\", \"http://18.213.8.225:4466/a182d77c-dfd8-11eb-9c7d-12414bf81c8f_2.png\", \"http://18.213.8.225:4466/a182d77c-dfd8-11eb-9c7d-12414bf81c8f_3.png\", \"http://18.213.8.225:4466/a182d77c-dfd8-11eb-9c7d-12414bf81c8f_4.png\", \"http://18.213.8.225:4466/a182d77c-dfd8-11eb-9c7d-12414bf81c8f_5.png\", \"http://18.213.8.225:4466/a182d77c-dfd8-11eb-9c7d-12414bf81c8f_6.png\", \"http://18.213.8.225:4466/a182d77c-dfd8-11eb-9c7d-12414bf81c8f_7.png\", \"http://18.213.8.225:4466/a182d77c-dfd8-11eb-9c7d-12414bf81c8f_8.png\", \"http://18.213.8.225:4466/a182d77c-dfd8-11eb-9c7d-12414bf81c8f_9.png\", \"http://18.213.8.225:4466/a182d77c-dfd8-11eb-9c7d-12414bf81c8f_10.png\", \"http://18.213.8.225:4466/a182d77c-dfd8-11eb-9c7d-12414bf81c8f_11.png\", \"http://18.213.8.225:4466/a182d77c-dfd8-11eb-9c7d-12414bf81c8f_12.png\", \"http://18.213.8.225:4466/a182d77c-dfd8-11eb-9c7d-12414bf81c8f_13.png\", \"http://18.213.8.225:4466/a182d77c-dfd8-11eb-9c7d-12414bf81c8f_14.png\", \"http://18.213.8.225:4466/a182d77c-dfd8-11eb-9c7d-12414bf81c8f_15.png\", \"http://18.213.8.225:4466/a182d77c-dfd8-11eb-9c7d-12414bf81c8f_16.png\", \"http://18.213.8.225:4466/a182d77c-dfd8-11eb-9c7d-12414bf81c8f_17.png\", \"http://18.213.8.225:4466/a182d77c-dfd8-11eb-9c7d-12414bf81c8f_18.png\", \"http://18.213.8.225:4466/a182d77c-dfd8-11eb-9c7d-12414bf81c8f_19.png\", \"http://18.213.8.225:4466/a182d77c-dfd8-11eb-9c7d-12414bf81c8f_20.png\", \"http://18.213.8.225:4466/a182d77c-dfd8-11eb-9c7d-12414bf81c8f_21.png\", \"http://18.213.8.225:4466/a182d77c-dfd8-11eb-9c7d-12414bf81c8f_22.png\", \"http://18.213.8.225:4466/a182d77c-dfd8-11eb-9c7d-12414bf81c8f_23.png\", \"http://18.213.8.225:4466/a182d77c-dfd8-11eb-9c7d-12414bf81c8f_24.png\"]}",
+    "configdefinition": [
+        {
+            "groupoperations": [
+                {
+                    "_id": "60e6d5e8a9a1cd68e4bbc418",
+                    "transformcase": "none"
+                },
+                {
+                    "_id": "60e6d5e8a9a1cd68e4bbc419",
+                    "transformdateformat": "none"
+                },
+                {
+                    "_id": "60e6d5e8a9a1cd68e4bbc41a",
+                    "transformnumberformat": "none"
+                },
+                {
+                    "_id": "60e6d5e8a9a1cd68e4bbc41b",
+                    "concatwithdelimiter": ""
+                },
+                {
+                    "_id": "60e6d5e8a9a1cd68e4bbc41c",
+                    "padafterconcat": "none"
+                },
+                {
+                    "_id": "60e6d5e8a9a1cd68e4bbc41d",
+                    "padbeforeconcat": "none"
+                },
+                {
+                    "_id": "60e6d5e8a9a1cd68e4bbc41e",
+                    "truncateleadingdelimiter": "false"
+                },
+                {
+                    "_id": "60e6d5e8a9a1cd68e4bbc41f",
+                    "truncatelaggingdelimiter": "false"
+                }
+            ],
+            "annotations": [
+                {
+                    "annotation": {
+                        "datastring": {
+                            "continued": {
+                                "continuedelsewhere": false,
+                                "continuationsymbol": "",
+                                "continuationheader": "",
+                                "continuationfooter": "",
+                                "continuationtype": "",
+                                "appearsonlyoncontinuationsheet": false
+                            },
+                            "setofrows": {
+                                "rowtransformlength": "1",
+                                "celltransformlength": "1",
+                                "chref": [],
+                                "virtualtable": false,
+                                "borderedtable": true,
+                                "rowseparator": "position",
+                                "columnseparator": "position",
+                                "rowdelimiter": "",
+                                "columndelimiter": "",
+                                "tableheader": false,
+                                "repeatingtableheader": false,
+                                "columnnames": "Study Visit||Did the subject receive study medication?||If No, Please Specify reason||Planned Dose Level||Was planned dose modified?||Actual Dose Administered (mg)||Date of Administration (dd-mon-yyyy)||Start Time of Infusion||Stop Time of Infusion||Was date of administration delayed?||Was the Infusion interrupted or terminated?",
+                                "tableheaderseparator": "lineborder",
+                                "tablestartstring": "Study Drug Administration (Gemcitabine)",
+                                "tableendstring": "Study Drug Administration (Vinorelbine)",
+                                "startrow": "",
+                                "endrow": "",
+                                "columntypes": "text||text||text||text||text||text||text||text||text||text||text",
+                                "transformtable": false,
+                                "repeatingsectionheader": false,
+                                "spacebetweenrows": "",
+                                "tableheaderregionsize": "",
+                                "nestedtablemap": ""
+                            },
+                            "keyvaluepairs": {
+                                "formkeylist": [
+                                    ""
+                                ],
+                                "simplekeymap": [],
+                                "keymapid": "",
+                                "extractionstartposition": "",
+                                "extractionendposition": "",
+                                "keystartposition": "",
+                                "valueendposition": "",
+                                "extractionstartstring": "",
+                                "extractionendstring": "",
+                                "keyvalueseperator": "",
+                                "isrepeatable": false,
+                                "useaddressmacro": false,
+                                "recordseperator": "",
+                                "keyvaluepair": false,
+                                "matchesvaluemap": false
+                            },
+                            "datecleansing": {
+                                "removeleadingwhitespace": true,
+                                "removelaggingwhitespace": true,
+                                "removeleadingstringmatching": "",
+                                "removelaggingstringmatching": ""
+                            },
+                            "stringdelimiters": [
+                                ""
+                            ],
+                            "elements": [],
+                            "name": "Study Drug Administration (Gemcitabine)",
+                            "image": false,
+                            "freetext": false,
+                            "paragraph": false,
+                            "delimited": false,
+                            "imagetype": "",
+                            "dstemplatestring": "Was the\ni ri ATi Was date of Infusion\nspe oe eee Planned cee a ee eared Sle ate ae ECS te tte) aa Tel\nhl receive study See) Dose Level nd, (mg) Ue Infusion Tyiticeya) n delayed? or\nmedication? Hatt ow a yyyy) terminated?\n24 DEC ; No\nCYCLE 1 Yes 1000 mg/m2 1990 2019 eas me oe we\nDAY 1\n20 JAN . N No\nCYCLE 1 1000 ma/m2 1990 13:25 13:55 oO\n27 JAN N No\nCYCLE 1 1000 ma/m2 1990 12:45 13:15 oO\n06 JAN Yes No\nCYCLE 1 1000 mg/m2 1990 16:40 17:10 e\n10 FEB No\nCYCLE 2 Yes 1000 mg/m2 1990 2020 tee see ee\nDAY 1\n02 MAR No No\nCYCLE 2 1000 ma/m2 2000 12:30 13:00\n10 MAR N No\nCYCLE 2 1000 ma/m2 2000 13:00 13:30 oO\n17 FEB No\nCYCLE 2 Yes 1000 mg/m2 1990 2020 ‘eee een ee\nDAY 8\n24 MAR ; No\nCYCLE 3 Yes 1000 mg/m2 2000 2020 09:80 \"0:00 we | wm |\nDAY 1\n14 APR N No\nCYCLE 3 1000 ma/m2 2000 13:20 13:50 oO\n21 APR N No\nCYCLE 3 1000 ma/m2 2000 12:20 12:50 oO\n31 MAR ; No\nCYCLE 3 Yes 1000 mg/m2 2000 2020 eee ane ee\nDAY 8\n07 MAY ; No\nCYCLE 4 Yes 1000 mg/m2 2000 2020 meee mee ee\nDAY 1\n29 MAY N No\nCYCLE 4 1000 mg/m2 2000 13:30 14:00 °\n04 JUN . N No\nCYCLE 4 1000 ma/m2 2000 13:50 14:20 oO\nDAY 29 Yes g 2020\n"
+                        },
+                        "matrixcoordinates": [
+                            ""
+                        ],
+                        "tablereferenceid": null,
+                        "annotationcontenttype": "normal-fullpage",
+                        "annotationcontentlang": "English",
+                        "annotationstatus": "0",
+                        "xmlreferenceid": null,
+                        "csvreferenceid": null,
+                        "nestedtablereferenceid": null,
+                        "rowreferenceid": null,
+                        "cellreferenceid": null,
+                        "rowreferencelength": "1",
+                        "cellreferencelength": "1",
+                        "annotid": "10002",
+                        "annotcoordinates": "0 , 1873 , 3006 , 2179",
+                        "annotationmatrix": false,
+                        "startpage": 16,
+                        "afterreferencecoordinates": "",
+                        "beforereferencecoordinates": "",
+                        "afterreferencestring": "",
+                        "beforereferencestring": "",
+                        "isrepeatableannot": false,
+                        "annotationtype": "simple"
+                    },
+                    "_id": "60e708c4a9a1cd68e4bbc531"
+                },
+                {
+                    "annotation": {
+                        "datastring": {
+                            "continued": {
+                                "continuedelsewhere": false,
+                                "continuationsymbol": "",
+                                "continuationheader": "",
+                                "continuationfooter": "",
+                                "continuationtype": "",
+                                "appearsonlyoncontinuationsheet": false
+                            },
+                            "setofrows": {
+                                "rowtransformlength": "1",
+                                "celltransformlength": "1",
+                                "chref": [],
+                                "virtualtable": false,
+                                "borderedtable": true,
+                                "rowseparator": "position",
+                                "columnseparator": "position",
+                                "rowdelimiter": "",
+                                "columndelimiter": "",
+                                "tableheader": false,
+                                "repeatingtableheader": false,
+                                "columnnames": "Study Visit||Did the subject receive study medication?||If No, Please Specify reason||Planned Dose Level||Was planned dose modified?||Actual Dose Administered (mg)||Date of Administration (dd-mon-yyyy)||Start Time of Infusion||Stop Time of Infusion||Was date of administration delayed?||Was the Infusion interrupted or terminated?",
+                                "tableheaderseparator": "lineborder",
+                                "tablestartstring": "Study Drug Administration (Vinorelbine)",
+                                "tableendstring": "Concomitant Procedures",
+                                "startrow": "",
+                                "endrow": "",
+                                "columntypes": "text||text||text||text||text||text||text||text||text||text||text",
+                                "transformtable": false,
+                                "repeatingsectionheader": false,
+                                "spacebetweenrows": "",
+                                "tableheaderregionsize": "",
+                                "nestedtablemap": ""
+                            },
+                            "keyvaluepairs": {
+                                "formkeylist": [
+                                    ""
+                                ],
+                                "simplekeymap": [],
+                                "keymapid": "",
+                                "extractionstartposition": "",
+                                "extractionendposition": "",
+                                "keystartposition": "",
+                                "valueendposition": "",
+                                "extractionstartstring": "",
+                                "extractionendstring": "",
+                                "keyvalueseperator": "",
+                                "isrepeatable": false,
+                                "useaddressmacro": false,
+                                "recordseperator": "",
+                                "keyvaluepair": false,
+                                "matchesvaluemap": false
+                            },
+                            "datecleansing": {
+                                "removeleadingwhitespace": true,
+                                "removelaggingwhitespace": true,
+                                "removeleadingstringmatching": "",
+                                "removelaggingstringmatching": ""
+                            },
+                            "stringdelimiters": [
+                                ""
+                            ],
+                            "elements": [],
+                            "name": "Study Drug Administration (Vinorelbine)",
+                            "image": false,
+                            "freetext": false,
+                            "paragraph": false,
+                            "delimited": false,
+                            "imagetype": "",
+                            "dstemplatestring": "Dye Ruy Dew sonia\n: If No, Please Was planned Actual Dose a . SJ tlad Stop Was date of Infusion\nri subject P Planned Ane Administratio \"i 7 ibe: r\nStudy Visit : Specify dose Administered Time of Time of administratio interrupted\nreceive study Dose Level = n (dd-mon- f. f\nne reason modified? (ure) Infusion Infusion n delayed? or\nmedication? yyyy) A\nTal taric-te leg\n"
+                        },
+                        "matrixcoordinates": [
+                            ""
+                        ],
+                        "tablereferenceid": null,
+                        "annotationcontenttype": "normal-fullpage",
+                        "annotationcontentlang": "English",
+                        "annotationstatus": "0",
+                        "xmlreferenceid": null,
+                        "csvreferenceid": null,
+                        "nestedtablereferenceid": null,
+                        "rowreferenceid": null,
+                        "cellreferenceid": null,
+                        "rowreferencelength": "1",
+                        "cellreferencelength": "1",
+                        "annotid": "10003",
+                        "annotcoordinates": "0 , 1870 , 3014 , 326",
+                        "annotationmatrix": false,
+                        "startpage": 18,
+                        "afterreferencecoordinates": "",
+                        "beforereferencecoordinates": "",
+                        "afterreferencestring": "",
+                        "beforereferencestring": "",
+                        "isrepeatableannot": false,
+                        "annotationtype": "simple"
+                    },
+                    "_id": "60e709fda9a1cd68e4bbc534"
+                },
+                {
+                    "annotation": {
+                        "datastring": {
+                            "continued": {
+                                "continuedelsewhere": false,
+                                "continuationsymbol": "",
+                                "continuationheader": "",
+                                "continuationfooter": "",
+                                "continuationtype": "",
+                                "appearsonlyoncontinuationsheet": false
+                            },
+                            "setofrows": {
+                                "rowtransformlength": "1",
+                                "celltransformlength": "1",
+                                "chref": [],
+                                "virtualtable": false,
+                                "borderedtable": true,
+                                "rowseparator": "position",
+                                "columnseparator": "position",
+                                "rowdelimiter": "",
+                                "columndelimiter": "",
+                                "tableheader": false,
+                                "repeatingtableheader": false,
+                                "columnnames": "#||Procedure / Surgery||Reason for surgery/procedure||If Other, please specify||Date of concomitant procedure/surgery (dd-mon-yyyy)",
+                                "tableheaderseparator": "lineborder",
+                                "tablestartstring": "Concomitant Procedures",
+                                "tableendstring": "Treatment Completion/Discontinuation",
+                                "startrow": "",
+                                "endrow": "",
+                                "columntypes": "text||text||text||text||text",
+                                "transformtable": false,
+                                "repeatingsectionheader": false,
+                                "spacebetweenrows": "",
+                                "tableheaderregionsize": "",
+                                "nestedtablemap": ""
+                            },
+                            "keyvaluepairs": {
+                                "formkeylist": [
+                                    ""
+                                ],
+                                "simplekeymap": [],
+                                "keymapid": "",
+                                "extractionstartposition": "",
+                                "extractionendposition": "",
+                                "keystartposition": "",
+                                "valueendposition": "",
+                                "extractionstartstring": "",
+                                "extractionendstring": "",
+                                "keyvalueseperator": "",
+                                "isrepeatable": false,
+                                "useaddressmacro": false,
+                                "recordseperator": "",
+                                "keyvaluepair": false,
+                                "matchesvaluemap": false
+                            },
+                            "datecleansing": {
+                                "removeleadingwhitespace": true,
+                                "removelaggingwhitespace": true,
+                                "removeleadingstringmatching": "",
+                                "removelaggingstringmatching": ""
+                            },
+                            "stringdelimiters": [
+                                ""
+                            ],
+                            "elements": [],
+                            "name": "Concomitant Procedures",
+                            "image": false,
+                            "freetext": false,
+                            "paragraph": false,
+                            "delimited": false,
+                            "imagetype": "",
+                            "dstemplatestring": "poe oa\n"
+                        },
+                        "matrixcoordinates": [
+                            ""
+                        ],
+                        "tablereferenceid": null,
+                        "annotationcontenttype": "normal-fullpage",
+                        "annotationcontentlang": "English",
+                        "annotationstatus": "0",
+                        "xmlreferenceid": null,
+                        "csvreferenceid": null,
+                        "nestedtablereferenceid": null,
+                        "rowreferenceid": null,
+                        "cellreferenceid": null,
+                        "rowreferencelength": "1",
+                        "cellreferencelength": "1",
+                        "annotid": "10004",
+                        "annotcoordinates": "0 , 1853 , 2448 , 280",
+                        "annotationmatrix": false,
+                        "startpage": 19,
+                        "afterreferencecoordinates": "",
+                        "beforereferencecoordinates": "",
+                        "afterreferencestring": "",
+                        "beforereferencestring": "",
+                        "isrepeatableannot": false,
+                        "annotationtype": "simple"
+                    },
+                    "_id": "60e70de6a9a1cd68e4bbc53e"
+                }
+            ],
+            "_id": "60e6d5e8a9a1cd68e4bbc417",
+            "groupid": 1
+        }
+    ],
+    "docxmetadata": null,
+    "formsummary": {
+        "_id": "60e6d5e8a9a1cd68e4bbc420",
+        "pages": [
+            {
+                "pageheaderidentifier": [
+                    ""
+                ],
+                "pagefooteridentifier": [],
+                "sectionheaders": [],
+                "_id": "60e6d5e8a9a1cd68e4bbc421",
+                "pageno": "0",
+                "pagetype": "simple",
+                "repeatablepage": "false",
+                "pageurl": "http://18.213.8.225:4466/a182d77c-dfd8-11eb-9c7d-12414bf81c8f_0.png"
+            },
+            {
+                "pageheaderidentifier": [
+                    ""
+                ],
+                "pagefooteridentifier": [],
+                "sectionheaders": [],
+                "_id": "60e6d5e8a9a1cd68e4bbc422",
+                "pageno": "1",
+                "pagetype": "simple",
+                "repeatablepage": "false",
+                "pageurl": "http://18.213.8.225:4466/a182d77c-dfd8-11eb-9c7d-12414bf81c8f_1.png"
+            },
+            {
+                "pageheaderidentifier": [
+                    ""
+                ],
+                "pagefooteridentifier": [],
+                "sectionheaders": [],
+                "_id": "60e6d5e8a9a1cd68e4bbc423",
+                "pageno": "2",
+                "pagetype": "simple",
+                "repeatablepage": "false",
+                "pageurl": "http://18.213.8.225:4466/a182d77c-dfd8-11eb-9c7d-12414bf81c8f_2.png"
+            },
+            {
+                "pageheaderidentifier": [
+                    ""
+                ],
+                "pagefooteridentifier": [],
+                "sectionheaders": [],
+                "_id": "60e6d5e8a9a1cd68e4bbc424",
+                "pageno": "3",
+                "pagetype": "simple",
+                "repeatablepage": "false",
+                "pageurl": "http://18.213.8.225:4466/a182d77c-dfd8-11eb-9c7d-12414bf81c8f_3.png"
+            },
+            {
+                "pageheaderidentifier": [
+                    ""
+                ],
+                "pagefooteridentifier": [],
+                "sectionheaders": [],
+                "_id": "60e6d5e8a9a1cd68e4bbc425",
+                "pageno": "4",
+                "pagetype": "simple",
+                "repeatablepage": "false",
+                "pageurl": "http://18.213.8.225:4466/a182d77c-dfd8-11eb-9c7d-12414bf81c8f_4.png"
+            },
+            {
+                "pageheaderidentifier": [
+                    ""
+                ],
+                "pagefooteridentifier": [],
+                "sectionheaders": [],
+                "_id": "60e6d5e8a9a1cd68e4bbc426",
+                "pageno": "5",
+                "pagetype": "simple",
+                "repeatablepage": "false",
+                "pageurl": "http://18.213.8.225:4466/a182d77c-dfd8-11eb-9c7d-12414bf81c8f_5.png"
+            },
+            {
+                "pageheaderidentifier": [
+                    ""
+                ],
+                "pagefooteridentifier": [],
+                "sectionheaders": [],
+                "_id": "60e6d5e8a9a1cd68e4bbc427",
+                "pageno": "6",
+                "pagetype": "simple",
+                "repeatablepage": "false",
+                "pageurl": "http://18.213.8.225:4466/a182d77c-dfd8-11eb-9c7d-12414bf81c8f_6.png"
+            },
+            {
+                "pageheaderidentifier": [
+                    ""
+                ],
+                "pagefooteridentifier": [],
+                "sectionheaders": [],
+                "_id": "60e6d5e8a9a1cd68e4bbc428",
+                "pageno": "7",
+                "pagetype": "simple",
+                "repeatablepage": "false",
+                "pageurl": "http://18.213.8.225:4466/a182d77c-dfd8-11eb-9c7d-12414bf81c8f_7.png"
+            },
+            {
+                "pageheaderidentifier": [
+                    ""
+                ],
+                "pagefooteridentifier": [],
+                "sectionheaders": [],
+                "_id": "60e6d5e8a9a1cd68e4bbc429",
+                "pageno": "8",
+                "pagetype": "simple",
+                "repeatablepage": "false",
+                "pageurl": "http://18.213.8.225:4466/a182d77c-dfd8-11eb-9c7d-12414bf81c8f_8.png"
+            },
+            {
+                "pageheaderidentifier": [
+                    ""
+                ],
+                "pagefooteridentifier": [],
+                "sectionheaders": [],
+                "_id": "60e6d5e8a9a1cd68e4bbc42a",
+                "pageno": "9",
+                "pagetype": "simple",
+                "repeatablepage": "false",
+                "pageurl": "http://18.213.8.225:4466/a182d77c-dfd8-11eb-9c7d-12414bf81c8f_9.png"
+            },
+            {
+                "pageheaderidentifier": [
+                    ""
+                ],
+                "pagefooteridentifier": [],
+                "sectionheaders": [],
+                "_id": "60e6d5e8a9a1cd68e4bbc42b",
+                "pageno": "10",
+                "pagetype": "simple",
+                "repeatablepage": "false",
+                "pageurl": "http://18.213.8.225:4466/a182d77c-dfd8-11eb-9c7d-12414bf81c8f_10.png"
+            },
+            {
+                "pageheaderidentifier": [
+                    ""
+                ],
+                "pagefooteridentifier": [],
+                "sectionheaders": [],
+                "_id": "60e6d5e8a9a1cd68e4bbc42c",
+                "pageno": "11",
+                "pagetype": "simple",
+                "repeatablepage": "false",
+                "pageurl": "http://18.213.8.225:4466/a182d77c-dfd8-11eb-9c7d-12414bf81c8f_11.png"
+            },
+            {
+                "pageheaderidentifier": [
+                    ""
+                ],
+                "pagefooteridentifier": [],
+                "sectionheaders": [],
+                "_id": "60e6d5e8a9a1cd68e4bbc42d",
+                "pageno": "12",
+                "pagetype": "simple",
+                "repeatablepage": "false",
+                "pageurl": "http://18.213.8.225:4466/a182d77c-dfd8-11eb-9c7d-12414bf81c8f_12.png"
+            },
+            {
+                "pageheaderidentifier": [
+                    ""
+                ],
+                "pagefooteridentifier": [],
+                "sectionheaders": [],
+                "_id": "60e6d5e8a9a1cd68e4bbc42e",
+                "pageno": "13",
+                "pagetype": "simple",
+                "repeatablepage": "false",
+                "pageurl": "http://18.213.8.225:4466/a182d77c-dfd8-11eb-9c7d-12414bf81c8f_13.png"
+            },
+            {
+                "pageheaderidentifier": [
+                    ""
+                ],
+                "pagefooteridentifier": [],
+                "sectionheaders": [],
+                "_id": "60e6d5e8a9a1cd68e4bbc42f",
+                "pageno": "14",
+                "pagetype": "simple",
+                "repeatablepage": "false",
+                "pageurl": "http://18.213.8.225:4466/a182d77c-dfd8-11eb-9c7d-12414bf81c8f_14.png"
+            },
+            {
+                "pageheaderidentifier": [
+                    ""
+                ],
+                "pagefooteridentifier": [],
+                "sectionheaders": [],
+                "_id": "60e6d5e8a9a1cd68e4bbc430",
+                "pageno": "15",
+                "pagetype": "simple",
+                "repeatablepage": "false",
+                "pageurl": "http://18.213.8.225:4466/a182d77c-dfd8-11eb-9c7d-12414bf81c8f_15.png"
+            },
+            {
+                "pageheaderidentifier": [
+                    ""
+                ],
+                "pagefooteridentifier": [],
+                "sectionheaders": [],
+                "_id": "60e6d5e8a9a1cd68e4bbc431",
+                "pageno": "16",
+                "pagetype": "simple",
+                "repeatablepage": "false",
+                "pageurl": "http://18.213.8.225:4466/a182d77c-dfd8-11eb-9c7d-12414bf81c8f_16.png"
+            },
+            {
+                "pageheaderidentifier": [
+                    ""
+                ],
+                "pagefooteridentifier": [],
+                "sectionheaders": [],
+                "_id": "60e6d5e8a9a1cd68e4bbc432",
+                "pageno": "17",
+                "pagetype": "simple",
+                "repeatablepage": "false",
+                "pageurl": "http://18.213.8.225:4466/a182d77c-dfd8-11eb-9c7d-12414bf81c8f_17.png"
+            },
+            {
+                "pageheaderidentifier": [
+                    ""
+                ],
+                "pagefooteridentifier": [],
+                "sectionheaders": [],
+                "_id": "60e6d5e8a9a1cd68e4bbc433",
+                "pageno": "18",
+                "pagetype": "simple",
+                "repeatablepage": "false",
+                "pageurl": "http://18.213.8.225:4466/a182d77c-dfd8-11eb-9c7d-12414bf81c8f_18.png"
+            },
+            {
+                "pageheaderidentifier": [
+                    ""
+                ],
+                "pagefooteridentifier": [],
+                "sectionheaders": [],
+                "_id": "60e6d5e8a9a1cd68e4bbc434",
+                "pageno": "19",
+                "pagetype": "simple",
+                "repeatablepage": "false",
+                "pageurl": "http://18.213.8.225:4466/a182d77c-dfd8-11eb-9c7d-12414bf81c8f_19.png"
+            },
+            {
+                "pageheaderidentifier": [
+                    ""
+                ],
+                "pagefooteridentifier": [],
+                "sectionheaders": [],
+                "_id": "60e6d5e8a9a1cd68e4bbc435",
+                "pageno": "20",
+                "pagetype": "simple",
+                "repeatablepage": "false",
+                "pageurl": "http://18.213.8.225:4466/a182d77c-dfd8-11eb-9c7d-12414bf81c8f_20.png"
+            },
+            {
+                "pageheaderidentifier": [
+                    ""
+                ],
+                "pagefooteridentifier": [],
+                "sectionheaders": [],
+                "_id": "60e6d5e8a9a1cd68e4bbc436",
+                "pageno": "21",
+                "pagetype": "simple",
+                "repeatablepage": "false",
+                "pageurl": "http://18.213.8.225:4466/a182d77c-dfd8-11eb-9c7d-12414bf81c8f_21.png"
+            },
+            {
+                "pageheaderidentifier": [
+                    ""
+                ],
+                "pagefooteridentifier": [],
+                "sectionheaders": [],
+                "_id": "60e6d5e8a9a1cd68e4bbc437",
+                "pageno": "22",
+                "pagetype": "simple",
+                "repeatablepage": "false",
+                "pageurl": "http://18.213.8.225:4466/a182d77c-dfd8-11eb-9c7d-12414bf81c8f_22.png"
+            },
+            {
+                "pageheaderidentifier": [
+                    ""
+                ],
+                "pagefooteridentifier": [],
+                "sectionheaders": [],
+                "_id": "60e6d5e8a9a1cd68e4bbc438",
+                "pageno": "23",
+                "pagetype": "simple",
+                "repeatablepage": "false",
+                "pageurl": "http://18.213.8.225:4466/a182d77c-dfd8-11eb-9c7d-12414bf81c8f_23.png"
+            },
+            {
+                "pageheaderidentifier": [
+                    ""
+                ],
+                "pagefooteridentifier": [],
+                "sectionheaders": [],
+                "_id": "60e6d5e8a9a1cd68e4bbc439",
+                "pageno": "24",
+                "pagetype": "simple",
+                "repeatablepage": "false",
+                "pageurl": "http://18.213.8.225:4466/a182d77c-dfd8-11eb-9c7d-12414bf81c8f_24.png"
+            }
+        ],
+        "continuationsheets": "",
+        "containscoversheets": "false",
+        "continuationpageheader": "",
+        "continuationpagefooter": ""
+    },
+    "outputformat": "PVI_4.9",
+    "createdon": "2021-07-08T10:39:36.425Z"
+}
