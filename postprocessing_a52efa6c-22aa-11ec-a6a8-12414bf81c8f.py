@@ -417,8 +417,10 @@ def preprocess_productdata(pvi_json):
                     end_date_sl = dose_date.split("/")[1].strip().split(" ")[0]
                     if "Ongoing" in end_date_sl:
                         every_prod["doseInformations"][0]["endDate"] = "Ongoing"
-                    else:
+                    elif field_na_checker(strip_characters(end_date_sl.lower())) not in ['unknown', 'unk']:
                         every_prod["doseInformations"][0]["endDate"] = field_na_checker(strip_characters(end_date_sl))
+                    else:
+                        every_prod["doseInformations"][0]["endDate"] = None
                 except:
                     every_prod["doseInformations"][0]["endDate"] = None
                     print("check in end date suspect last page")
@@ -2350,11 +2352,11 @@ def populate_concentration_value(pvi_json):
 
 def validate_date_format(given_date):
     if given_date:
-        dd_mmm_yyyy_hh_mm_ss = re.search(r"^\d{2}-[A-Z]{3}-\d{4} \d{2}:\d{2}:\d{2}$",
+        dd_mmm_yyyy_hh_mm_ss = re.search(r"^\d{2}-[A-Za-z]{3}-\d{4} \d{2}:\d{2}:\d{2}$",
                                          given_date)  # 13-JUN-2022 12:30:00
-        dd_mmm_yyyy = re.search(r"^\d{2}-[A-Z]{3}-\d{4}$", given_date)  # 13-JUN-2022
-        d_mmm_yyyy = re.search(r"^\d{1}-[A-Z]{3}-\d{4}$", given_date)  # 5-JUN-2022
-        mmm_yyyy = re.search(r"^[A-Z]{3}-\d{4}$", given_date)  # JUN-2022
+        dd_mmm_yyyy = re.search(r"^\d{2}-[A-Za-z]{3}-\d{4}$", given_date)  # 13-JUN-2022
+        d_mmm_yyyy = re.search(r"^\d{1}-[A-Za-z]{3}-\d{4}$", given_date)  # 5-JUN-2022
+        mmm_yyyy = re.search(r"^[A-Za-z]{3}-\d{4}$", given_date)  # JUN-2022
         yyyy = re.search(r"^\d{4}$", given_date)  # 2022
 
         date_formats = ["%d-%b-%Y %H:%M:%S", "%d-%b-%Y", "%d-%b-%Y", "%b-%Y", "%Y"]
